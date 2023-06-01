@@ -44,8 +44,8 @@ function Footer() {
     >
         <div className="container">
           <div className="footer_logo-row">
-            <a href="https://polygon.technology" aria-current="page" className="nav_logo-link is-footer w-nav-brand w--current">
-              <img src="/img/polygon-labs.svg" loading="lazy" width="113" height="36" alt=""/>
+            <a href="https://antofy.io" aria-current="page" className="nav_logo-link is-footer w-nav-brand w--current">
+              <img src="/img/aNtofydds.png" loading="lazy" width="113" height="36" alt=""/>
             </a>
 
             <div className="footer_sm-link-wrapper">
