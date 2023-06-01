@@ -8,7 +8,7 @@ module.exports = {
   baseUrl: "/",
   favicon: "/img/logo-round-purple.png",
   organizationName: "maticnetwork",
-  projectName: "zkevm-docs",
+  projectName: "antofy-docs",
   customFields: {
     description: "Build your next blockchain dApp on Antofy.",
   },
@@ -229,10 +229,10 @@ module.exports = {
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: "Polygon logo",
-        src: "img/polygon-zkevm.svg",
-        srcDark: "img/polygon-zkevm.svg",
-        href: 'https://zkevm.polygon.technology',
+        alt: "antofy logo",
+        src: "img/antofy.svg",
+        srcDark: "img/antofy.svg,
+        href: 'https:/antofy.io',
         target: "_self",
        },
       items: [
@@ -262,50 +262,50 @@ module.exports = {
           position: "right",
           items: [
             {
-              href: 'https://wiki.polygon.technology/docs/pos/polygon-architecture',
-              label: 'PoS',
+              href: 'https://antofy.io',
+              label: 'Blockchain',
               target: '_blank',
               rel: null,
             },
             {
               href: '/',
-              label: 'zkEVM',
+              label: 'Antofy',
               target: '_self',
               rel: null,
             },
             {
-              href: 'https://wiki.polygon.technology/docs/supernets',
-              label: 'Supernets',
+              href: 'https://antofy.money',
+              label: 'Money',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://wiki.polygon.technology/docs/miden',
-              label: 'Miden',
+              href: 'https://antofy.ai',
+              label: 'AI',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://0xpolygonid.github.io/tutorials/',
-              label: 'ID',
+              href: 'https://antofy.finance',
+              label: 'Finance',
               target: '_blank',
               rel: null,
             },
           ],
         },
         {
-          href: "https://github.com/0xpolygonhermez",
+          href: "https://github.com/antofy",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
         },
         {
-          href: "https://twitter.com/0xPolygon",
+          href: "https://twitter.com/0xantofy",
           position: "right",
           className: "header-twitter-link",
         },
         {
-          href: "https://discord.com/invite/0xPolygon",
+          href: "https://discord.gg/antofy",
           position: "right",
           className: "header-discord-link",
         },
@@ -327,7 +327,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/maticnetwork/zkevm-docs/tree/main/",
+          editUrl: "https://github.com/antofy/antofy-docs/tree/main/",
           path: "docs",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -338,7 +338,7 @@ module.exports = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-           trackingID: 'G-FCVXSX7563',
+           trackingID: 'G-',
            anonymizeIP: true,
         },
       },
