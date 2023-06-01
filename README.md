@@ -106,7 +106,7 @@ your PR. Note that you must have a GitHub account and an understanding of Markdo
     git push
     ```
 
-4. Submit a PR against the `main` branch of the `maticnetwork/zkevm-docs` repo.
+4. Submit a PR against the `main` branch of the `antofy/antofy-docs` repo.
    
 5. Add a title to your PR with appropriate labels.
    > For example, if you want to suggest edits to the "Develop" page, name your PR: *update: develop.md*.
