@@ -16,7 +16,7 @@ module.exports = {
     "architecture",
     {
       type: "category",
-      label: "zkEVM Protocol",
+      label: "Antofy Protocol",
       link: {
         type: "generated-index",
       },
@@ -60,7 +60,7 @@ module.exports = {
             type: "generated-index",
           },
           items: [
-            "protocol/zkevm-bridge",
+            "protocol/antofy-bridge",
             "protocol/exit-tree",
             "protocol/bridge-smart-contract",
             "protocol/flow-of-asset",
