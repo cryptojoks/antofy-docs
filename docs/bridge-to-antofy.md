@@ -1,13 +1,13 @@
 ---
-id: bridge-to-zkevm
-title: Bridge Assets to zkEVM
-sidebar_label: Bridge to zkEVM
-description: Learn how to bridge assets from Ethereum to Polygon zkEVM using the Wallet Suite.
+id: bridge-to-antofy
+title: Bridge Assets to Antofy
+sidebar_label: Bridge to Antofy
+description: Learn how to bridge assets from Ethereum to Antofy using the Wallet Suite.
 keywords:
-  - polygon
-  - zkEVM
+  - antofy
+  - abn
   - wallet
-  - Bridge to zkEVM
+  - Bridge to Antofy
   - guide
 ---
 
