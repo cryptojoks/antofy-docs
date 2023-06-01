@@ -7,7 +7,7 @@ module.exports = {
   url: "https://antofy.io",
   baseUrl: "/",
   favicon: "/img/logo-abn.svg",
-  organizationName: "maticnetwork",
+  organizationName: "antofy",
   projectName: "antofy-docs",
   customFields: {
     description: "Build your next blockchain dApp on Antofy.",
@@ -174,7 +174,7 @@ module.exports = {
               label: 'Discord',
             },
             {
-              href: 'https://forum.polygon.technology/',
+              href: 'https://t.me/antofygroup',
               label: 'Forum',
             },
             {
@@ -218,7 +218,7 @@ module.exports = {
       additionalLanguages: ['solidity']
     },
     algolia: {
-      indexName: "zkevm-polygon",
+      indexName: "antofy",
       appId: '7OGWPLU80E',
       apiKey: "43743b7a07c349fb251cea12958582c0",
       contextualSearch: true,
@@ -231,7 +231,7 @@ module.exports = {
       logo: {
         alt: "antofy logo",
         src: "img/antofy.svg",
-        srcDark: "img/antofy-dark.svg",
+        srcDark: "img/antofy.svg,
         href: 'https:/antofy.io',
         target: "_self",
        },
