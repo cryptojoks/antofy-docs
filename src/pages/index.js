@@ -77,7 +77,7 @@ function Buttonizer({linkUrl}) {
       </button>
       <a href={linkUrl} target="_blank" className="button is-icon is-secondary w-inline-flex">
         <div className="button-icon_left-element is-icon-medium">
-          <div className="text-size-small">Bridge toAntofy</div>
+          <div className="text-size-small">Bridge to Antofy</div>
         </div>
         <div className="button-icon_right-element is-icon-medium">
           <div className="icon-1x1-medium w-embed">
