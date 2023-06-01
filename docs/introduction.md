@@ -1,15 +1,15 @@
 ---
 id: introduction
-title: Introduction to Polygon zkEVM
+title: Introduction to Antofy
 sidebar_label: Introduction
-description: Polygon zkEVM is a decentralized Ethereum Layer 2 scalability solution that uses cryptographic zero-knowledge proofs to offer validity and quick finality to off-chain transaction computation, also known as a ZK-Rollup.
+description: Antofy is a decentralized Ethereum Layer 2 scalability solution that uses cryptographic proofs to offer validity and quick finality to off-chain transaction computation.
 keywords:
-  - zkEVM
-  - polygon
+  - antofy
+  - abn
   - introduction
   - scaling ethereum
   - zero knowledge proofs
-  - zkRollups
+  - blockchain
 ---
 
 :::info
@@ -18,45 +18,104 @@ This documentation is still a **Work In Progress**. Some topics have been discus
 
 :::
 
-**Welcome to the Polygon zkEVM Documentation portal.**
+**Welcome to the Antofy Documentation portal.**
 
-Polygon zkEVM is a decentralized Ethereum Layer 2 scalability solution that uses cryptographic zero-knowledge proofs to offer validity and quick finality to off-chain transaction computation, also known as a **ZK-Rollup**.
+## Get started
 
-The ZK-Rollup executes smart contracts transparently, by publishing zero-knowledge validity proofs, while maintaining opcode compatibility with the Ethereum Virtual Machine. This documentation presents detailed guides on:
+If you're looking for things you can do with Antofy, check out the [Antofy Ecosystem](https://antofy.com).
 
-- Polygon zkEVM and its Architecture
-- Our design approach to State Machines
-- Running a local zkNode
-- Participating in the zkEVM Testnet and build on the Mainnet
+### Build on Antofy
 
-The documentation cascades into the finer details of zkEVM's sub-components, including the **zero-knowledge Prover (zkProver)**, the **State Machines** used in the zkProver, the **zkEVM Bridge smart contract**, and the special toolings that enable the Polygon zkEVM to achieve its objectives.
+Get started with Antofy by installing the [Antofy node](https://antofy.io), and deploying a simple DeFi app locally in [Quick Start]({{< ref "quick-start" >}}).
 
-## Scaling Ethereum with zkEVM
+For in depth tutorials on the underlying aspects of the Antofy Network check out the [Developer Guide]({{< ref "quick-start" >}}) and the [Developer Resources]({{< ref "resources" >}}).
 
-Given that Ethereum is subject to [the DLT (distributed ledger technology) trilemma](https://medium.com/certik/the-blockchain-trilemma-decentralized-scalable-and-secure-e9d8c41a87b3), it cannot scale beyond its transaction threshold without sacrificing decentralization or security. This is where Polygon zkEVM comes into play.
+### Governance
 
-**Polygon zkEVM**, henceforth zkEVM, is a **virtual machine** designed and developed to **emulate the Ethereum Virtual Machine (EVM)** by recreating all existing EVM opcodes for transparent deployment of existing Ethereum smart contracts. We have developed **Zero-knowledge Rollups (ZK-Rollups)** which run on top of the Ethereum Mainnet and exponentially improve the scalability and transactions per second (TPS) of Ethereum.
+[Validators](/docs/governance/validators/) are essential to the Antofy ecosystem.
 
-In order to prove that the off-chain computations are correct, **Polygon zkEVM employs verifiable zero-knowledge proofs as validity proofs**. Although the Layer 2 zero-knowledge proofs are based on complex polynomial computations to provide validation and finality to off-chain transactions, the validity proofs are quick and easy to verify.
+Learn how to [stake](/docs/governance/staking/) your Antofy tokens and vote for validators. Highly technical users may also participate in validator elections to have a chance of becoming a paid block producer.
 
-As a state machine, **zkEVM carries out state changes**, which come from executions of Ethereum’s Layer 2 transactions that users send to the network, and subsequently produces validity proofs attesting to the correctness of the state change computations carried out off-chain.
 
-Although taking on this revolutionary design approach was a hard decision to make, the objective is to minimize the user and developer friction while using the solution. It is an approach that requires recreation of all EVM opcodes for the transparent deployment of existing Ethereum smart contracts. For this purpose, a new set of technologies and tools has been created and engineered by the team which we'll discuss in later sections of this documentation.
+## Why Antofy?
+Antofy is fast, scalable, has low transaction costs and does no wasteful mining.
 
-## Benefits of Polygon zkEVM
+Antofy chain features next-gen blockchain technology, utilizing POA (Proof of Authority), extensible EVM and state of the art cryptography.
 
-- EVM-equivalence
-- Ethereum security
-- ZKP-powered scalability
+## Introduction to the Antofy Platform
+The Antofy Platform is a unified infrastructure platform based on the technical, traffic and ecological resources, and will be gradually open to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. The Antofy Platform is an EVM compatible blockchain who solves the biggest problem of Dapp industry. The Antofy Platform will provide global developers with series of diverse innovative facilities and services.
 
-**Polygon zkEVM** is a Layer 2 scaling solution for Ethereum that leverages the scaling power of zero-knowledge proofs while maintaining Ethereum compatibility. Developers and users on **Polygon zkEVM** can use the same code, tooling, apps, etc that they use on Ethereum, but with much higher throughput and lower fees.
+## Solving market's biggest problem
+Decentralized applications (Dapps) running on any blockchain contribute to the biggest use case of the blockchain industry. These Dapps are heavily sabotaged by the traditional blockchain's transaction speed. This really does not let heavy Dapps like gaming, metaverse, NFTs, etc. to function as their full potential. The traditional blockchain simply can not provide the transaction speed that they need. That is the reason why these types of Dapps can decide to move away from blockchain altogether and adopt a centralised web application approach. Our blockchain solves this problem by having a high TPS capacity using the mighty POA consensus mechanism. Apart from this, our blockchain also heavily emphasises the security of the network through the network of the validators responsible for confirming the transactions. The speed and security will create huge advantages for the Dapps, so they can carry on their innovative development in the blockchain ecosystem.
 
-Developers will deploy their existing contracts to the zkEVM, and users can deposit assets from Ethereum and transact off-chain. These transactions are grouped into batches with zero-knowledge proof attesting to the validity of each transaction. This ensures that the operators of the zkEVM can’t steal user funds, so we can say that it inherits the security of Ethereum.
+## Declaration
+To empower the decentralised applications (Dapps) ecosystem
 
-**Polygon zkEVM** offers compatibility and scalability without compromise.
+## Vision
+Antofy's vision is not only to be the best public blockchain, but also to focus on the discovery and support of high-potential developers and innovative projects. Relying on the world's largest trading ecosystem, Antofy is committed to becoming the birthplace of innovative technologies and innovative businesses, and building a complete ecological loop of technology development, application promotion, and trading.
 
-## Further Reading
+## Antofy’s Performance
+TPS: 2000+
+Average block interval: 3s
+Consensus Mechanism
+PA consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
 
-- [Polygon ZK Rollups: Everything You Need to Know](https://www.alchemy.com/overviews/polygon-zk-rollups)
-- [Guide to Using the Polygon zkEVM](https://polygon.technology/blog/your-three-step-guide-to-using-polygon-zkevm-yes-its-that-easy)
-- [Technical Overview of Polygon zkEVM and zkEVM Rollup](https://mirror.xyz/msfew.eth/JJudP_Kf-IS6VhbF-qU0BUor1Ap6SFEb0TzYOHZ34Rc)
+The maximum number of validators supported is 21.
+
+## Economic Model
+The endogenous token on the chain is $BNI; the transactions consume $BNI as gas fee.
+
+Miners pledge $BNI to become validator nodes. The reward of nodes is gas fee, which is distributed according to the mortgage proportion.
+
+## Cross-Chain
+Assets such as ETH, BNB and stable coins can be mapped to Antofy by an asset bridge. The realization method is to lock a certain amount of tokens on the original chain then generate a corresponding number of tokens on Antofy.
+
+Antofy encourages developers to provide more decentralized cross-chain solution.
+
+## Antofy Technical Characteristics
+- An open and decentralized network to maintain the security of the network and assets.
+- Support the programmability of EVM, the compatibility of smart contracts to reduce development or migration costs.
+- Meta-transaction function: gas fee reduction, effectively reducing the cost of developers and users on the chain.
+- Support cross-chain asset transfer to optimize users’ experience.
+
+## Support Plan of Antofy
+
+### Financial Support
+- Antofy will set up a special fund to invest, support and incentivize high-potential developers.
+- Antofy will launch a variety of developer activities and competitions to discover and fund potential developers.
+- In order to reduce the cost of users on Antofy Dapp, the Antofy meta transaction function will reduce the gas fee of users holding $BNI in a step-wise manner.
+
+## Traffic Support
+Antofy will strongly support the development of Antofy ecosystem:
+
+ - Provide traffic entrance for high-quality Dapp on Antofy.
+- After running successfully on Antofy, high-quality projects can submit token listing application to Antofy trading platform, and can be listed on it if they meet the listing standards.
+
+## Resource Support
+- Projects or developers that have received investment and support from Antofy have not only the opportunity to get official news report, but also can apply for marketing service packages and promote their projects globally.
+- High-quality projects can participate in Antofy foundation roadshows for free.
+- Antofy will open up ecological resources to high-potential developers, matching the win-win cooperation between developers and our ecological partners.
+
+## Interact with Us on Social Media
+- YouTube: [https://www.youtube.com/@antofy](https://www.youtube.com/@antofy)
+- Twitter：[https://twitter.com/0xantofy](https://twitter.com/0xantofy)
+- Telegram (Group)： [https://t.me/antofygroup](https://t.me/antofygroup)
+- Telegram (Channel)： [https://t.me/antofylabs](https://t.me/antofylabs)
+- Github: [https://github.com/antofy](https://github.com/antofy)
+- Linkdin: [https://www.linkedin.com/company/antofy](https://www.linkedin.com/company/antofy)
+
+## Risk Warning
+All users and developers can participate in the current test environment and subsequent stages of Antofy for free, and there is no charging scenario.
+All users must distinguish the test environment from the Mainnet. The assets generated in the test environment have no value. Be aware of counterfeit currency fraud.
+Antofy announces authorization, promotion and other collaborations only through the official social media platform. Developers and users should check carefully to avoid losses.
+Do not misread the official website (Antofy.io), and be cautious with private key phishing.
+
+#### Antofy vs legacy chains
+|                             | Bitcoin             | Ethereum            | Antofy                          |
+| --------------------------- | ------------------- | ------------------- | ------------------------------ |
+| Consensus algorithm         | Proof of Waste      | Proof of Waste      | Proof of Authority   (PoA)    |
+| Energy consumption          | More than [Poland](https://digiconomist.net/bitcoin-energy-consumption)    | More than [Austria](https://digiconomist.net/ethereum-energy-consumption)   | Less than a Laptop |
+| Transaction finality        | 3600+ seconds       | 600+ seconds        | 3 seconds                     |
+| Block time                  | ~600 seconds        | ~17 seconds         | 2 seconds                     |
+| Throughput                  | 7 tps               | 14 tps              | [2500](/blog/bitindi-testnet-stress-test/) tps  |
+| Smart contracts             | No                  | Yes, EVM            | Yes, EVM                       |
