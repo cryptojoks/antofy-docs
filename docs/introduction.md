@@ -26,9 +26,9 @@ If you're looking for things you can do with Antofy, check out the [Antofy Ecosy
 
 ### Build on Antofy
 
-Get started with Antofy by installing the [Antofy node](https://antofy.io), and deploying a simple DeFi app locally in [Quick Start]({{< ref "quick-start" >}}).
+Get started with Antofy by installing the [Antofy node](https://antofy.io), and deploying a simple DeFi app locally in Quick Start.
 
-For in depth tutorials on the underlying aspects of the Antofy Network check out the [Developer Guide]({{< ref "quick-start" >}}) and the [Developer Resources]({{< ref "resources" >}}).
+For in depth tutorials on the underlying aspects of the Antofy Network check out the Developer Guide and the Developer Resources.
 
 ### Governance
 
@@ -56,7 +56,7 @@ Antofy's vision is not only to be the best public blockchain, but also to focus 
 
 ## Antofy’s Performance
 TPS: 2000+
-Average block interval: 3s
+Average block interval: 2s
 Consensus Mechanism
 PA consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
 
@@ -111,11 +111,12 @@ Antofy announces authorization, promotion and other collaborations only through 
 Do not misread the official website (Antofy.io), and be cautious with private key phishing.
 
 #### Antofy vs legacy chains
-|                             | Bitcoin             | Ethereum            | Antofy                          |
+
+|                             | Bitcoin             | Ethereum            | Antofy                         |
 | --------------------------- | ------------------- | ------------------- | ------------------------------ |
-| Consensus algorithm         | Proof of Waste      | Proof of Waste      | Proof of Authority   (PoA)    |
+| Consensus algorithm         | Proof of Waste      | Proof of Waste      | Proof of Authority   (PoA)     |
 | Energy consumption          | More than [Poland](https://digiconomist.net/bitcoin-energy-consumption)    | More than [Austria](https://digiconomist.net/ethereum-energy-consumption)   | Less than a Laptop |
-| Transaction finality        | 3600+ seconds       | 600+ seconds        | 3 seconds                     |
-| Block time                  | ~600 seconds        | ~17 seconds         | 2 seconds                     |
-| Throughput                  | 7 tps               | 14 tps              | [2500](/blog/bitindi-testnet-stress-test/) tps  |
+| Transaction finality        | 3600+ seconds       | 600+ seconds        | 3 seconds                      |
+| Block time                  | ~600 seconds        | ~17 seconds         | 2 seconds                      |
+| Throughput                  | 7 tps               | 14 tps              | 2500 tps                       |
 | Smart contracts             | No                  | Yes, EVM            | Yes, EVM                       |
