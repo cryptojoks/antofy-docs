@@ -65,7 +65,7 @@ function Buttonizer({linkUrl}) {
     <div className="button-group">
       <button onClick={addMaticNetwork} className="button is-icon w-inline-flex">
         <div className="button-icon_left-element is-icon-medium">
-          <div className="text-size-small">Add zkEVM Network</div>
+          <div className="text-size-small">Add Antofy Network</div>
         </div>
         <div className="button-icon_right-element is-icon-medium">
           <div className="icon-1x1-medium w-embed">
@@ -77,7 +77,7 @@ function Buttonizer({linkUrl}) {
       </button>
       <a href={linkUrl} target="_blank" className="button is-icon is-secondary w-inline-flex">
         <div className="button-icon_left-element is-icon-medium">
-          <div className="text-size-small">Bridge to zkEVM</div>
+          <div className="text-size-small">Bridge toAntofy</div>
         </div>
         <div className="button-icon_right-element is-icon-medium">
           <div className="icon-1x1-medium w-embed">
@@ -103,13 +103,13 @@ function Home() {
             <div className="row justify-content-center">
               <div className="col-lg-8 pop-text">
                 <h2 className="mt-0">
-                  zkEVM <span className="white-text">for Everyone</span>
+                 Antofy <span className="white-text">for Everyone</span>
                 </h2>
-                <h4 className="mt-0">Ethereum scalability with zkEVM <span className="white-text">performance and security</span></h4>
+                <h4 className="mt-0">Ethereum scalability with Antofy <span className="white-text">performance and security</span></h4>
                 <p className="lead grey-text">
-                  Polygon zkEVM Documentation is the documentation portal providing 
+                  Antofy Documentation is the documentation portal providing 
                   extensive documentation, community resources, and guides for enthusiasts 
-                  and developers interested in learning about or building on zkEVM.
+                  and developers interested in learning about or building on Antofy.
                 </p>
                 <div class="padding-bottom custom-padding"></div>
                 <Buttonizer linkUrl={'https://wallet.polygon.technology/zkEVM-Bridge/bridge'} />
@@ -131,7 +131,7 @@ function Home() {
             <br/>
           </div>
           <div className="row" style={{marginBottom: 32}}>
-            <a href="https://github.com/0xpolygonhermez" style={{color: "white", display: "inline-flex"}} className="pop-text">
+            <a href="https://github.com/antofy" style={{color: "white", display: "inline-flex"}} className="pop-text">
               <h1>Open Source <span className="white-text">Repositories</span></h1>
               <span className="button-icon_right-element is-icon-medium">
                 <div className="w-embed">
@@ -155,11 +155,11 @@ function Home() {
                     <div className="call-to-action">
                       <div>
                         NETWORK STATUS
-                        <p className="c2a-text">You can check the live status of Polygon zkEVM network using the following links for Mainnet Beta and Public Testnet.</p>
+                        <p className="c2a-text">You can check the live status of Antofy network using the following links for Mainnet Beta and Public Testnet.</p>
                       </div>
                       <div>
-                        <a href="https://status.zkevm-rpc.com/" target="_blank" class="button white-button" style={{marginRight: 8}}>Mainnet Beta</a>
-                        <a href="https://status.zkevm-test.net/" target="_blank" class="button white-button">Public Testnet</a>
+                        <a href="#" target="_blank" class="button white-button" style={{marginRight: 8}}>Mainnet Beta</a>
+                        <a href="#" target="_blank" class="button white-button">Public Testnet</a>
                       </div>
                     </div>
                   </div>
