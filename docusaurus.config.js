@@ -4,8 +4,8 @@ const katex = require('rehype-katex');
 module.exports = {
   title: "Antofy Documentation",
   tagline: "The official developer documentation portal for Antofy protocol.",
-  url: "/",
-  baseUrl: "https://docs.antofy.io",
+  url: "https://docs.antofy.io",
+  baseUrl: "/",
   favicon: "/img/logo-abn.svg",
   organizationName: "antofy",
   projectName: "antofy-docs",
