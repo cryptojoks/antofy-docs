@@ -4,9 +4,9 @@ title: Introduction to Antofy Bridge
 sidebar_label: Overview
 description: Antofy Bridge is a component that enables communication and asset migration between the Polygon zkEVM network and other networks, such as the L1 (Ethereum Mainnet) or any L2 built on top of Ethereum.
 keywords:
-  - polygon
+  - antofy
   - bridge
-  - zkEVM
+  - abn
   - interoperability
   - Bridge smart contract
   - introduction
