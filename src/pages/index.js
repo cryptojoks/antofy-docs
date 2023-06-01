@@ -112,7 +112,7 @@ function Home() {
                   and developers interested in learning about or building on Antofy.
                 </p>
                 <div class="padding-bottom custom-padding"></div>
-                <Buttonizer linkUrl={'https://wallet.polygon.technology/zkEVM-Bridge/bridge'} />
+                <Buttonizer linkUrl={'https://bridge.antofy.io'} />
               </div>
               <div className="col-lg-4">
                 <div className="tabs_animation-wrapper"><iframe src="https://player.vimeo.com/video/791154651?h=f4d511386d&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1" frameBorder="0" allow="autoplay" className="tabs-frame" title="Hero" data-ready="true" width="500"height="450" /></div>
