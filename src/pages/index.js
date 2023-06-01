@@ -132,7 +132,7 @@ function Home() {
           </div>
           <div className="row" style={{marginBottom: 32}}>
             <a href="https://github.com/antofy" style={{color: "white", display: "inline-flex"}} className="pop-text">
-              <h1>Open Source <span className="white-text">Repositories</span></h1>
+              <h1>Ecosystem <span className="white-text">Apps</span></h1>
               <span className="button-icon_right-element is-icon-medium">
                 <div className="w-embed">
                   <svg width="2.5rem" height="2.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
