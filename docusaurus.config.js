@@ -6,7 +6,7 @@ module.exports = {
   tagline: "The official developer documentation portal for Antofy protocol.",
   url: "https://antofy.io",
   baseUrl: "/",
-  favicon: "/img/logo-round-purple.png",
+  favicon: "/img/logo-abn.svg",
   organizationName: "maticnetwork",
   projectName: "antofy-docs",
   customFields: {
@@ -231,7 +231,7 @@ module.exports = {
       logo: {
         alt: "antofy logo",
         src: "img/antofy.svg",
-        srcDark: "img/antofy.svg,
+        srcDark: "img/antofy-dark.svg",
         href: 'https:/antofy.io',
         target: "_self",
        },
