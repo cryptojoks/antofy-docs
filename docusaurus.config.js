@@ -2,15 +2,15 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 module.exports = {
-  title: "Polygon zkEVM Documentation",
-  tagline: "The official developer documentation portal for Polygon zkEVM protocol.",
-  url: "https://zkevm.polygon.technology",
+  title: "Antofy Documentation",
+  tagline: "The official developer documentation portal for Antofy protocol.",
+  url: "https://antofy.io",
   baseUrl: "/",
   favicon: "/img/logo-round-purple.png",
   organizationName: "maticnetwork",
   projectName: "zkevm-docs",
   customFields: {
-    description: "Build your next blockchain dApp on Polygon zkEVM.",
+    description: "Build your next blockchain dApp on Antofy.",
   },
   i18n: {
     defaultLocale: 'en',
@@ -29,12 +29,12 @@ module.exports = {
 
   onBrokenLinks: 'log',
   themeConfig: {
-    metadata: [{name: 'description', content: 'Welcome to Polygon zkEVM Documentation, the official documentation portal for Polygon zkEVM.'}],
+    metadata: [{name: 'description', content: 'Welcome to Antofy Documentation, the official documentation portal for Antofy world.'}],
     announcementBar: {
       id: 'banner',
       content: `
         <div class="announcement-bar">
-          Polygon zkEVM Mainnet Beta is now Live! 
+          Antofy testnet Beta is now Live! 
           <a href="/docs/develop" class="announcement-link" style="color: #ffffff;">Start Building</a>
           <a href="/docs/risk-disclosure" class="announcement-link" style="color: #ffffff;">Risks</a>
         </div>
@@ -53,84 +53,84 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: "Polygon Labs",
+          title: "Antofy Labs",
           items: [
             {
               label: "About Us",
-              href: "https://polygon.technology/about/"
+              href: "https://antofy.com/"
             },
             {
               label: "Blog",
-              href: "https://blog.polygon.technology/"
+              href: "https://antofy.com/blog/"
             },
             {
               label: "Careers",
-              href: "https://polygon.technology/careers"
+              href: "mailto:https://antofy.com/blog"
             },
             {
-              label: "Matic Token",
-              href: "https://polygon.technology/matic-token"
+              label: "ABN Token",
+              href: "https://antofy.finance/swap/bnb/bnb-to-abn"
             },
             {
-              label: "Contact Us",
-              href: "https://polygon.technology/contact-us/"
-            },
-          ]
-        },
-        {
-          title: "Solutions",
-          items: [
-            {
-              label: "Polygon PoS",
-              href: "https://polygon.technology/polygon-pos"
-            },
-            {
-              label: "Polygon zkEVM",
-              href: "https://polygon.technology/polygon-zkevm"
-            },
-            {
-              label: "Polygon Supernets",
-              href: "https://polygon.technology/polygon-supernets"
-            },
-            {
-              label: "Polygon Miden",
-              href: "https://polygon.technology/polygon-miden"
-            },
-            {
-              label: "Polygon ID",
-              href: "https://polygon.technology/polygon-id"
+              label: "Join Us",
+              href: "https://antofy.com/"
             },
           ]
         },
         {
-          title: "Use Polygon",
+          title: "Ecosystem",
           items: [
             {
-              href: 'https://wallet.polygon.technology',
-              label: 'Polygon Wallet Suite',
+              label: "Antofy Labs",
+              href: "https://antofy.com"
+            },
+            {
+              label: "Antofy Finance",
+              href: "https://antofy.finance"
+            },
+            {
+              label: "Antofy Money",
+              href: "https://antofy.money"
+            },
+            {
+              label: "Antofy Games",
+              href: "https://antofy.games"
+            },
+            {
+              label: "Antofy AI",
+              href: "https://antofy.ai"
+            },
+          ]
+        },
+        {
+          title: "Use Antofy",
+          items: [
+            {
+              href: 'https://antofy.finance',
+              label: 'Antofy Finance',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://staking.polygon.technology/',
+              href: 'https://staking.antofy.finance',
               label: 'Staking',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://polygonscan.com/',
-              label: 'Polygon Scan',
+              href: 'https://antofyscan.com/',
+              label: 'Antofy Scan',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://mapper.polygon.technology/',
-              label: 'Token Mapper',
+              href: 'https://antofy.ai/',
+              label: 'Antofy AI',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://polygon.technology/ecosystem',
+              href: 'https://antofy.money',
               label: 'Ecosystem dApps',
               target: '_blank',
               rel: null,
@@ -141,23 +141,23 @@ module.exports = {
           title: "Resources",
           items: [
             {
-              href: 'https://support.polygon.technology/support/home',
-              label: 'Polygon Support',
+              href: 'https://antofy.com',
+              label: 'Antofy Support',
             },
             {
-              label: "Advocate Program",
-              href: "https://polygon.technology/advocate-program/"
+              label: "Advocate Antofy",
+              href: "https://antofy.com"
             },
             {
-              label: "Polygon Funds",
-              href: "https://polygon.technology/funds/"
+              label: "Antofy Funds",
+              href: "https://antofy.com"
             },
             {
               label: "Bug Bounty",
-              href: "https://immunefi.com/bounty/polygon/"
+              href: "https://antofy.com"
             },
             {
-              href: 'https://www.dappstorekit.io/',
+              href: 'https://antofy.com',
               label: 'Build your own dApp',
             },
           ]
@@ -166,11 +166,11 @@ module.exports = {
           title: "Community",
           items: [
             {
-              href: 'https://twitter.com/0xPolygonLabs',
+              href: 'https://twitter.com/0xantofy',
               label: 'Twitter',
             },
             {
-              href: 'https://discord.com/invite/0xPolygon',
+              href: 'https://discord.gg/antofy',
               label: 'Discord',
             },
             {
@@ -178,11 +178,11 @@ module.exports = {
               label: 'Forum',
             },
             {
-              href: 'https://www.reddit.com/r/0xPolygon/',
+              href: 'https://www.reddit.com/r/0xantofy/',
               label: 'Reddit',
             },
             {
-              href: 'https://t.me/polygonofficial',
+              href: 'https://t.me/antofylabs',
               label: 'Telegram',
             },
           ]
@@ -191,16 +191,16 @@ module.exports = {
           title: "Legal",
           items: [
               {
-                href: 'https://polygon.technology/terms-of-use',
+                href: 'https://antofy.com/legal',
                 label: 'Terms of Use',
               },
               {
                 label: "Privacy Policy",
-                href: "https://polygon.technology/privacy-policy"
+                href: "https://antofy.com/legal"
               },
               {
                 label: "Cookie Policy",
-                href: "https://polygon.technology/cookie-policy"
+                href: "https://antofy.com/legal"
               },
               {
                 label: "Risks",
