@@ -10,15 +10,15 @@ async function addMaticNetwork() {
     const result = await window.ethereum.request({
       method: "wallet_addEthereumChain",
       params: [{
-        chainId: "0x44D",
-        rpcUrls: ["https://zkevm-rpc.com"],
-        chainName: "Polygon zkEVM",
+        chainId: "0x00",
+        rpcUrls: ["https://antofy.io"],
+        chainName: "Antofy",
         nativeCurrency: {
           name: "Ether",
           symbol: "ETH",
           decimals: 18
         },
-        blockExplorerUrls: ["https://zkevm.polygonscan.com/"]
+        blockExplorerUrls: ["https://antofyscan.com/"]
       }]
     });
   } catch (error){
