@@ -5,7 +5,7 @@ module.exports = {
   title: "Antofy Documentation",
   tagline: "The official developer documentation portal for Antofy protocol.",
   url: "/",
-  baseUrl: "/",
+  baseUrl: "https://docs.antofy.io",
   favicon: "/img/logo-abn.svg",
   organizationName: "antofy",
   projectName: "antofy-docs",
