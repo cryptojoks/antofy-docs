@@ -229,7 +229,7 @@ module.exports = {
       className: "sidebar-title",
     },
     "develop",
-    "bridge-to-zkevm",
+    "bridge-to-antofy",
     {
       type: "category",
       label: "MaticJS SDK",
