@@ -20,6 +20,9 @@ This documentation is still a **Work In Progress**. Some topics have been discus
 
 **Welcome to the Antofy Documentation portal.**
 
+Antofy is an L1 blockchain designed from the ground up to solve the current problems faced by existing blockchains. We have reimagined every aspect of the technology, from tokenomics to consensus, to create a fundamentally new distributed system.
+This documentation is the only reliable source of the Elysium architecture. We are still polishing the system's nuances, so the documentation is constantly updated and supplemented.
+
 ## Get started
 
 If you're looking for things you can do with Antofy, check out the [Antofy Ecosystem](https://antofy.com).
@@ -29,12 +32,6 @@ If you're looking for things you can do with Antofy, check out the [Antofy Ecosy
 Get started with Antofy by installing the [Antofy node](https://antofy.io), and deploying a simple DeFi app locally in Quick Start.
 
 For in depth tutorials on the underlying aspects of the Antofy Network check out the Developer Guide and the Developer Resources.
-
-### Governance
-
-[Validators](/docs/governance/validators/) are essential to the Antofy ecosystem.
-
-Learn how to [stake](/docs/governance/staking/) your Antofy tokens and vote for validators. Highly technical users may also participate in validator elections to have a chance of becoming a paid block producer.
 
 
 ## Why Antofy?
@@ -54,18 +51,8 @@ To empower the decentralised applications (Dapps) ecosystem
 ## Vision
 Antofy's vision is not only to be the best public blockchain, but also to focus on the discovery and support of high-potential developers and innovative projects. Relying on the world's largest trading ecosystem, Antofy is committed to becoming the birthplace of innovative technologies and innovative businesses, and building a complete ecological loop of technology development, application promotion, and trading.
 
-## Antofy’s Performance
-TPS: 2000+
-Average block interval: 2s
-Consensus Mechanism
-PA consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
-
-The maximum number of validators supported is 21.
-
-## Economic Model
-The endogenous token on the chain is $BNI; the transactions consume $BNI as gas fee.
-
-Miners pledge $BNI to become validator nodes. The reward of nodes is gas fee, which is distributed according to the mortgage proportion.
+## Model
+The endogenous token on the chain is $ABN; with the "0" fee transactions.
 
 ## Cross-Chain
 Assets such as ETH, BNB and stable coins can be mapped to Antofy by an asset bridge. The realization method is to lock a certain amount of tokens on the original chain then generate a corresponding number of tokens on Antofy.
@@ -109,14 +96,3 @@ All users and developers can participate in the current test environment and sub
 All users must distinguish the test environment from the Mainnet. The assets generated in the test environment have no value. Be aware of counterfeit currency fraud.
 Antofy announces authorization, promotion and other collaborations only through the official social media platform. Developers and users should check carefully to avoid losses.
 Do not misread the official website (Antofy.io), and be cautious with private key phishing.
-
-#### Antofy vs legacy chains
-
-|                             | Bitcoin             | Ethereum            | Antofy                         |
-| --------------------------- | ------------------- | ------------------- | ------------------------------ |
-| Consensus algorithm         | Proof of Waste      | Proof of Waste      | Proof of Authority   (PoA)     |
-| Energy consumption          | More than [Poland](https://digiconomist.net/bitcoin-energy-consumption)    | More than [Austria](https://digiconomist.net/ethereum-energy-consumption)   | Less than a Laptop |
-| Transaction finality        | 3600+ seconds       | 600+ seconds        | 3 seconds                      |
-| Block time                  | ~600 seconds        | ~17 seconds         | 2 seconds                      |
-| Throughput                  | 7 tps               | 14 tps              | 2500 tps                       |
-| Smart contracts             | No                  | Yes, EVM            | Yes, EVM                       |
