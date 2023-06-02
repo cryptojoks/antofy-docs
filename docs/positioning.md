@@ -1,7 +1,7 @@
 ---
 id: positioning
 title: Antofy is not yet another blockchain
-sidebar_label: Build on Antofy
+sidebar_label: Positioning
 description: Antofy provides a complete EVM-like experience for Developers and Users alike. Simply switch to the Antofy network and start building on a network with much higher throughput and lower fees.
 keywords:
   - Antofy
