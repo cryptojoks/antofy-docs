@@ -23,9 +23,7 @@ The coincidence of interests is not just a theoretical concept. When applied to 
 
 Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Elysium tokenomics uses two coins: RAY and SKY. Their supply is managed by Elysium Grinder, which is essentially an automated central bank.
 
-{% hint style="info" %}
 If a cryptocurrency has its own blockchain, it is called a coin, unlike tokens, whose operations are processed by third-party blockchains. Thus, the description of the mechanics of how the blockchain economic model works should be called "coinomics."
-{% endhint %}
 
 The most common tokenomics model today is the one applied 13 years ago for Bitcoin. It implies that the number of coins is limited, and their issuance, which decreases over time to zero, comes as a reward to network nodes for making the system work. Therefore, users must buy them from node owners, often with fiat currency, to interact with the system.
 
