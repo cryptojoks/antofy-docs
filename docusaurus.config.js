@@ -35,7 +35,7 @@ module.exports = {
       content: `
         <div class="announcement-bar">
           Antofy testnet Beta is now Live! 
-          <a href="/docs/develop" class="announcement-link" style="color: #ffffff;">Start Building</a>
+          <a href="/docs/positioning" class="announcement-link" style="color: #ffffff;">Positioning</a>
           <a href="/docs/risk-disclosure" class="announcement-link" style="color: #ffffff;">Risks</a>
         </div>
       `,
