@@ -253,7 +253,7 @@ module.exports = {
         type: "generated-index",
       },
       collapsed: false,
-      items: ["setup-local-node", "setup-production-node"],
+      items: ["funding", "setup-production-node"],
     },
     "zkevm-gas-station",
     "features",
