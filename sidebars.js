@@ -13,7 +13,7 @@ module.exports = {
       className: "sidebar-title",
     },
     "introduction",
-    "architecture",
+    "positioning",
     {
       type: "category",
       label: "Antofy Protocol",
