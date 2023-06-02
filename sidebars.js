@@ -257,7 +257,7 @@ module.exports = {
     },
     "tokenomics",
     "features",
-    "glossary",
+    "architecture",
   ],
 
   faq: [
