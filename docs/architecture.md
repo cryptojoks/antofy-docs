@@ -9,10 +9,6 @@ keywords:
   - decentralized
 ---
 
----
-description: New architecture for decentralized systems.
----
-
 # 💠 Public Cluster
 
 ## **The rise and fall of peer-to-peer architecture.**
@@ -101,7 +97,7 @@ The owner, for example, can determine which server provides the current time, ke
 
 Theoretically, a majority consent of the nodes about the system's state could serve as the source of truth. The participants' individual interests are contradictory, and, as a result, the optimum to which the system will aim is the balance of the interests of the majority of its participants.
 
-![image](http://github.com/cryptojoks/antofy-docs/assets/98596722/3e745af4-9041-43d3-b40d-7d93d8a0be63)
+![image](img/242988268-3e745af4-9041-43d3-b40d-7d93d8a0be63.png)
 
 But in practice, an attacker can get many of the nodes in a system under his control simply by creating them, thus obtaining the majority and biasing the consent in his favor. This type of threat of privatization of an ownerless system by one of its participants has been named Sybil attacks.
 
