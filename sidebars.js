@@ -248,7 +248,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Setup zkNode",
+      label: "Antofy",
       link: {
         type: "generated-index",
       },
