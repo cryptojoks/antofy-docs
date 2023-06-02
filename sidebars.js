@@ -15,6 +15,7 @@ module.exports = {
     "introduction",
     "positioning",
     "features",
+    "funding",
     {
       type: "category",
       label: "Antofy Protocol",
