@@ -1,18 +1,11 @@
 ---
 id: features
 title: Features
-sidebar_label: Source Code
-description: Github source code repositories related to Polygon zkEVM.
+sidebar_label: Features
+description: Antofy is made of innovations
 keywords:
   - antofy
-  - abn
-  - github repository
-  - source code
-  - open source
----
-
----
-description: Antofy is made of innovations
+  - abny
 ---
 
 # 🌟 Features
