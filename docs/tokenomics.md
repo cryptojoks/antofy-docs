@@ -18,7 +18,8 @@ An ideal tokenomics should facilitate the coincidence of the interests of three 
 * Regular users of the system who constantly use it for a variety of tasks.
 * Validators who spend computing resources and time to keep the system running.
 
-The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Elysium is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter. 
+
+The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Elysium is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter.
 
 Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Elysium tokenomics uses two coins: RAY and SKY. Their supply is managed by Elysium Grinder, which is essentially an automated central bank.
 
