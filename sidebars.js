@@ -228,7 +228,7 @@ module.exports = {
       value: "Developer Guides",
       className: "sidebar-title",
     },
-    "develop",
+    "positioning",
     "bridge-to-antofy",
     {
       type: "category",
