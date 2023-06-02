@@ -12,9 +12,6 @@ keywords:
 
 # 📍 Roadmap
 
-<details>
-
-<summary>Work in progress</summary>
 
 * [x] Birth of the Antofy
 * [x] Launch of the Antofy website
@@ -46,4 +43,3 @@ keywords:
 * [ ] Writing the article: Public Cluster&#x20;
 * [ ] Designing the system
 
-</details>
