@@ -29,7 +29,7 @@ If a cryptocurrency has its own blockchain, it is called a coin, unlike tokens, 
 
 The most common tokenomics model today is the one applied 13 years ago for Bitcoin. It implies that the number of coins is limited, and their issuance, which decreases over time to zero, comes as a reward to network nodes for making the system work. Therefore, users must buy them from node owners, often with fiat currency, to interact with the system.
 
-
+<figure><img src="/img/abtofy-ai.png" alt=""><figcaption><p>The most popular blockchain tokenomics</p></figcaption></figure>
 
 It appears that users still pay nodes of the system in fiat currency but through an intermediate medium in the form of a blockchain coin. This payment arrangement has one indisputable advantage - because the number of coins is limited - when the system's popularity grows, its price skyrockets. But this same property also entails internal contradictions.
 
