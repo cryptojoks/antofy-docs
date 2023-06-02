@@ -254,7 +254,7 @@ module.exports = {
       items: ["setup-local-node", "setup-production-node"],
     },
     "zkevm-gas-station",
-    "open-source-repos",
+    "features",
     "glossary",
   ],
 
