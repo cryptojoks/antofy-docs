@@ -5,28 +5,28 @@ export const firstRow = [
         imageUrl: 'https://player.vimeo.com/video/791154970?h=1a9cdd3763&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1',
     },
     {
-        title: "Build on Antofy",
-        linkUrl: "/docs/develop",
+        title: "Positioning",
+        linkUrl: "/docs/positioning",
         imageUrl: 'https://player.vimeo.com/video/791149020?h=a0b62c3daa&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1',
     },
     {
-        title: "Bridge Assets to Antofy",
-        linkUrl: "/docs/bridge-to-antofy",
+        title: "Features",
+        linkUrl: "/docs/features",
         imageUrl: 'https://player.vimeo.com/video/791153931?h=a0b62c3daa&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1',
     },
     {
-        title: "Protocol Design",
-        linkUrl: "/docs/protocol/protocol-components",
+        title: "Funding",
+        linkUrl: "/docs/funding",
         imageUrl: 'https://player.vimeo.com/video/791148990?h=a0b62c3daa&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1',
     },
     {
-        title: "Transaction Life Cycle",
-        linkUrl: "/docs/protocol/l2-transaction-cycle-intro",
+        title: "Roadmap",
+        linkUrl: "/docs/roadmap",
         imageUrl: 'https://player.vimeo.com/video/791154963?h=ec978d69ef&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1',
     },
     {
-        title: "Deploy a Antofy Node",
-        linkUrl: "/docs/setup-production-node",
+        title: "Tokenomics",
+        linkUrl: "/docs/tokenomics",
         imageUrl: 'https://player.vimeo.com/video/791148973?h=a0b62c3daa&badge=0&autopause=0&player_id=0&app_id=58479&loop=1&autoplay=1&background=1',
     },
 ];
