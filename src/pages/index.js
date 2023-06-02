@@ -105,7 +105,7 @@ function Home() {
                 <h2 className="mt-0">
                  Antofy <span className="white-text">for Everyone</span>
                 </h2>
-                <h4 className="mt-0">Ethereum scalability with Antofy <span className="white-text">performance and security</span></h4>
+                <h4 className="mt-0">Scalability with Antofy <span className="white-text">performance and security</span></h4>
                 <p className="lead grey-text">
                   Antofy Documentation is the documentation portal providing 
                   extensive documentation, community resources, and guides for enthusiasts 
