@@ -27,7 +27,6 @@ If a cryptocurrency has its own blockchain, it is called a coin, unlike tokens, 
 
 The most common tokenomics model today is the one applied 13 years ago for Bitcoin. It implies that the number of coins is limited, and their issuance, which decreases over time to zero, comes as a reward to network nodes for making the system work. Therefore, users must buy them from node owners, often with fiat currency, to interact with the system.
 
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption><p>The most popular blockchain tokenomics</p></figcaption></figure>
 
 It appears that users still pay nodes of the system in fiat currency but through an intermediate medium in the form of a blockchain coin. This payment arrangement has one indisputable advantage - because the number of coins is limited - when the system's popularity grows, its price skyrockets. But this same property also entails internal contradictions.
 
@@ -85,7 +84,6 @@ The coincidence of interests is not just a theoretical concept. When applied to 
 
 Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Elysium tokenomics uses two coins: RAY and SKY. Their supply is managed by Elysium Grinder, which is essentially an automated central bank.
 
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption><p>Elysium Tokenomics</p></figcaption></figure>
 
 ### RAY Coin
 
@@ -107,7 +105,7 @@ All transaction fees paid in RAY are immediately burned. The base fee rate per t
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -131,7 +129,7 @@ RAY can only be released into circulation by burning SKY in the Elysium Grinder.
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -157,7 +155,7 @@ The Elysium Grinder controls the issuance of the RAY coin to reach the target ci
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -191,7 +189,7 @@ SKY is used by Grinder for RAY issuance. Anyone can put SKY coins in the Grinder
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -213,7 +211,7 @@ Since validator rewards are not directly dependent on the specific transactions 
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -237,7 +235,7 @@ Our simulation shows that though the total supply of SKY is 100 000 000, it is u
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -253,7 +251,7 @@ The RAY / SKY rate depends very much on the initial distribution of coins - ther
 
 {% tabs %}
 {% tab title="Chart" %}
-<figure><img src="/img/abtofy-ai.png" alt=""><figcaption></figcaption></figure>
+
 {% endtab %}
 
 {% tab title="Details" %}
