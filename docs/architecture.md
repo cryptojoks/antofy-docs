@@ -101,19 +101,19 @@ Theoretically, a majority consent of the nodes about the system's state could se
 
 But in practice, an attacker can get many of the nodes in a system under his control simply by creating them, thus obtaining the majority and biasing the consent in his favor. This type of threat of privatization of an ownerless system by one of its participants has been named Sybil attacks.
 
-![image](https://github.com/cryptojoks/antofy-docs/assets/98596722/1a5e9768-1242-409d-9d08-96c38b9196bd)
+![image](img/242988295-1a5e9768-1242-409d-9d08-96c38b9196bd.png)
 
 The primary method of defending against this kind of attack is competition among participants for limited resources. And this approach was first used in the Bitcoin network, where voting for the canonical chain of blocks is not about the number of nodes under a participant's control but about computing resources, which require not only the initial investment but also a constant expenditure of electricity.
 
 Thus, the Proof of Work consensus is based mainly on a protection mechanism against Sybil attacks. And so is Proof of Stake, which uses tokens stored in the blockchain instead of calculations.
 
-![image](https://github.com/cryptojoks/antofy-docs/assets/98596722/f356849e-b84c-4dce-8f55-e81effcc0d83)
+![image](img/242988328-f356849e-b84c-4dce-8f55-e81effcc0d83.png)
 
 In fact, starting with Bitcoin, all subsequent truly decentralized blockchains use consensus with built-in protection against Sybil attacks, as only this approach allows using a peer-to-peer architecture.
 
 But the protection against Sybil attacks can be separated from the consensus by taking the security dome outside the system. An attacker can only hack the formula "one node - one vote" if there is no barrier for new nodes. If, however, participants must compete with each other to join the system, the threat of Sybil attacks is eliminated long before the consensus process itself.
 
-![image](https://github.com/cryptojoks/antofy-docs/assets/98596722/56343e1a-9b82-4f11-979a-1fac26debe94)
+![image](img/242988403-56343e1a-9b82-4f11-979a-1fac26debe94.png)
 
 Moreover, protecting the network from fake nodes allows us to move away from the peer-to-peer architecture while maintaining the ownerless concept. After all, the motivation of nodes through the issuance of blockchain assets significantly impacts the network's size and configuration.
 
@@ -127,7 +127,7 @@ We call this type of architecture a Public Cluster.
 
 > **A Public Cluster is an architecture of an ownerless system formed by vertically linked hierarchical layers that require limited blockchain resources to participate in. Every layer, which consists of equal and interchangeable nodes, can be a distinct peer-to-peer network.**
 
-![image](https://github.com/cryptojoks/antofy-docs/assets/98596722/8c0fb165-e2cf-404e-a560-b5a5c79eb188)
+![image](img/242988437-8c0fb165-e2cf-404e-a560-b5a5c79eb188.png)
 
 While in classic Proof of Work, real computing power protects the virtual blockchain from tampering, in a public cluster architecture, virtual blockchain resources shield the physical network from the fake nodes.
 
@@ -153,15 +153,15 @@ Third, the system's stability to malicious behavior of the participants is a rat
 
 Fourth, limited access to hierarchical layers means dynamic node rotation, which requires a relatively quick and easy inclusion in blockchain support without downloading hundreds of gigabytes.
 
-### Elysium public cluster
+### Antofy public cluster
 
-The Elysium public cluster consists of three hierarchical layers connected vertically: an assertion layer, an address layer, and an assembly layer.
+The Antofy public cluster consists of three hierarchical layers connected vertically: an assertion layer, an address layer, and an assembly layer.
 
 The assertion and address layers are formed as peer-to-peer networks. While the assertion layer has an unstructured topology, the address layer has a structured topology.
 
 The entire cluster acts as a server, providing service to clients connecting to the address layer.
 
-![Antofy pubilc cluster](https://github.com/cryptojoks/antofy-docs/assets/98596722/4dc7bd70-1482-4240-841a-ce4fffe9c2ff)
+![Antofy pubilc cluster](img/242988712-4dc7bd70-1482-4240-841a-ce4fffe9c2ff.png)
 
 #### Assertion layer
 
@@ -173,14 +173,14 @@ The only thing an evil Keeper can do to harm the system is not to work. More pre
 
 #### Address layer
 
-Most of the tasks on the Elysium network are performed on the address layer by Routers. They maintain the blockchain, verify transactions and blocks, function as network gateways, and act as the core mail service for sending tokens between users.
+Most of the tasks on the Antofy network are performed on the address layer by Routers. They maintain the blockchain, verify transactions and blocks, function as network gateways, and act as the core mail service for sending tokens between users.
 
 Forming a structured address ring is one of the most important architectural features of the address layer. Routers, acting as gateways, connect Workers and Wallets to the address ring, effectively creating a consistent network for clients with a single address space based on the blockchain addresses.
 
 A single address space effectively solves many problems decentralized systems face, from user-friendly client-server interaction to the addressable forwarding of crypto assets and information.
 
 {% hint style="info" %}
-In other words, the user's wallet program will not connect to proprietary servers, as with virtually all current solutions, but to one of the Routers. In addition, sending requests to a specific wallet and receiving a response from it will be possible in the Elysium network.
+In other words, the user's wallet program will not connect to proprietary servers, as with virtually all current solutions, but to one of the Routers. In addition, sending requests to a specific wallet and receiving a response from it will be possible in the Antofy network.
 {% endhint %}
 
 In addition to their primary tasks at the address level, Routers also act as a liaison to tie the entire cluster together. This is achieved through vertical layer integration, as Workers and Wallets connect to Routers, which in turn must be connected to Keepers.
@@ -196,14 +196,14 @@ It is worth noting that the Worker's task is only to create a new block, not to 
 Separating the new block creation (which requires checking the correctness of the previous chain) into a distinct role brings much greater decentralization of the nodes that support and check the system's work. At the same time, this approach reduces as much as possible the technical entry barrier for node owners - only a program running on a home computer or laptop that does not consume many resources is required.
 
 {% hint style="info" %}
-A relatively close analogy for describing the architecture of Elysium can be a bank. Thus, the Keepers correspond to the bank's board of directors, which decides critical issues and is the only source of truth. Routers can be compared to a network of branches, which regular customers can visit to make transfers, as well as Workers, who perform specific tasks for a reward.
+A relatively close analogy for describing the architecture of Antofy can be a bank. Thus, the Keepers correspond to the bank's board of directors, which decides critical issues and is the only source of truth. Routers can be compared to a network of branches, which regular customers can visit to make transfers, as well as Workers, who perform specific tasks for a reward.
 {% endhint %}
 
-#### The launch and the size of the Elysium public cluster
+#### The launch and the size of the Antofy public cluster
 
-To be able to connect to each of Elysium's hierarchical layers, one of the unique non-tradable on-chain assets will be required: Bronze (Workers), Silver (Routers), and Gold (Keepers).
+To be able to connect to each of Antofy's hierarchical layers, one of the unique non-tradable on-chain assets will be required: Bronze (Workers), Silver (Routers), and Gold (Keepers).
 
-The blockchain system of distributing these assets to all participants involved in Elysium will be launched sometime after the system's launch. Initially, the public cluster will be formed by participants who have successfully passed the Pioneer Program. Pioneers will be able to launch their nodes on one of the hierarchical layers, depending on the results they achieve in the Program.
+The blockchain system of distributing these assets to all participants involved in Antofy will be launched sometime after the system's launch. Initially, the public cluster will be formed by participants who have successfully passed the Pioneer Program. Pioneers will be able to launch their nodes on one of the hierarchical layers, depending on the results they achieve in the Program.
 
 {% hint style="info" %}
 There will be selected 70 participants for the assertion layer, 500 for the address layer, and over 1000 for the assembly layer. External users will not be able to join any layer before launching a Bronze, Silver, and Gold distribution. From the initial launch of the system until the start of the distribution system, the public cluster will operate in a test mode with a reward for pioneers in the form of a real SKY.
@@ -235,9 +235,9 @@ Whereas Bitcoin can be obtained as a reward for expending computational resource
 
 ## Summary
 
-The Elysium public cluster's hierarchy and logic allow it to achieve several contradictory goals.
+The Antofy public cluster's hierarchy and logic allow it to achieve several contradictory goals.
 
-First, an opportunity arises to bring back the spirit of the early days of the crypto-industry, when to enter the world of cryptocurrencies, you didn't even have to buy them - you just had to run a program on your home computer and after a while the cryptocurrency appeared in your wallet all by itself. In Elysium, we will bring that utopia back.
+First, an opportunity arises to bring back the spirit of the early days of the crypto-industry, when to enter the world of cryptocurrencies, you didn't even have to buy them - you just had to run a program on your home computer and after a while the cryptocurrency appeared in your wallet all by itself. In Antofy, we will bring that utopia back.
 
 Second, since there are relatively few Keepers participating in the consensus, the time of agreeing on a new block will be minimal because the most significant influence on the speed of the agreement is the time of information distribution over the network, which is higher as more nodes form the network. The consensus is achieved on the most protected hierarchical layer, which excludes many types of attacks (including Sybil and DDoS attacks). However, a new attack vector opens up, which we will discuss separately in the consensus section.
 
