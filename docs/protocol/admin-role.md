@@ -2,11 +2,11 @@
 id: admin-role
 title: Admin Role and Governance
 sidebar_label: Admin Role and Governance
-description: A guide to help developers understand the Admin Role and Governance mechanism of Polygon zkEVM.
+description: A guide to help developers understand the Admin Role and Governance mechanism of Antofy Blockchain.
 keywords:
-  - polygon
+  - antofy
   - protocol
-  - zkEVM
+  - abn
   - admin role
   - governance
   - timelock controller
