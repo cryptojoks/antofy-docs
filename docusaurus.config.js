@@ -3,14 +3,14 @@ const katex = require('rehype-katex');
 
 module.exports = {
   title: "Antofy Documentation",
-  tagline: "The official developer documentation portal for Antofy protocol.",
+  tagline: "The official developer documentation portal for Antofy Blockchain.",
   url: "https://docs.antofy.io",
   baseUrl: "/",
   favicon: "/img/logo-abn.svg",
   organizationName: "antofy",
   projectName: "antofy-docs",
   customFields: {
-    description: "Build your next blockchain dApp on Antofy.",
+    description: "Build your next blockchain dApp on Antofy Network.",
   },
   i18n: {
     defaultLocale: 'en',
