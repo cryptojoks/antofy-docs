@@ -83,9 +83,10 @@ In general, an ideal tokenomics should facilitate the coincidence of the interes
 The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Antofy is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter.&#x20;
 
 Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Antofy tokenomics uses two coins: ABN and SABN. Their supply is managed by Antofy Grinder, which is essentially an automated central bank.
+
 ### ABN Coin
 
-<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>100 000 000 ABNs</td></tr><tr><td>Utility</td><td>ABN is used to issue SABN</td></tr><tr><td>Issuance</td><td>Can be minted only as validator's reward</td></tr><tr><td>Burning</td><td>A part of ABN while minting SABN is burned </td></tr></tbody></table>
+<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>100 000 000 ABNs</td></tr><tr><td>Utility</td><td>ABN is used to issue SABN</td></tr><tr><td>Issuance</td><td>Can be minted only as validator's reward</td></tr><tr><td>Burning</td><td>A part of ABN while minting SABN </td></tr></tbody></table>
 
 It is vital for investors and validators that there are explicit mechanics for the growth of the asset in the long run. But in most modern networks, it is not entirely obvious what a coin is secured with, so the main criteria for long-term investments remain the limited supply of the token and the possible popularity of the decentralized system in the future.
 
