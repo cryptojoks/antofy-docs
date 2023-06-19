@@ -170,10 +170,6 @@ module.exports = {
               label: 'Twitter',
             },
             {
-              href: 'https://discord.gg/antofy',
-              label: 'Discord',
-            },
-            {
               href: 'https://t.me/antofygroup',
               label: 'Forum',
             },
@@ -303,11 +299,6 @@ module.exports = {
           href: "https://twitter.com/0xantofy",
           position: "right",
           className: "header-twitter-link",
-        },
-        {
-          href: "https://discord.gg/antofy",
-          position: "right",
-          className: "header-discord-link",
         },
       ],
     },
