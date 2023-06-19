@@ -270,19 +270,19 @@ $$
 
 If some single-token system goes bankrupt, it doesn't mean all single-token mechanics are doomed. We have fundamentally different mechanics from LUNA, self-sufficient and not directly tied to the real world. Thus, it cannot be broken by external manipulation, as it happened with LUNA.
 
-### How will I be able to deposit or withdraw money from Elysium?
+### How will I be able to deposit or withdraw money from Antofy?
 
-In the beginning, a bridge with Ethereum will be set up to interact with the outside world, allowing users to use wrapped ETH in Elysium. It will also be possible to withdraw capital from the Elysium network using this bridge.&#x20;
+In the beginning, a bridge with Ethereum will be set up to interact with the outside world, allowing users to use wrapped ETH in Antofy. It will also be possible to withdraw capital from the Antofy network using this bridge.&#x20;
 
-Bridges to other popular blockchains will be created in the future. If necessary, it will be possible to make a bridge with reverse logic, where SABN or ABN is withdrawn from Elysium, and in another blockchain, the user receives wrapped SABN or ABN tokens.
+Bridges to other popular blockchains will be created in the future. If necessary, it will be possible to make a bridge with reverse logic, where SABN or ABN is withdrawn from Antofy, and in another blockchain, the user receives wrapped SABN or ABN tokens.
 
 ### What happens if no one puts ABN in the Grinder?
 
-That won't happen. At least, the Elysium Team will put a single ABN in the Grinder queue at a price sufficient to issue a billion SABNs. And we have no doubt that there will be many such overpriced orders.
+That won't happen. At least, the Antofy Team will put a single ABN in the Grinder queue at a price sufficient to issue a billion SABNs. And we have no doubt that there will be many such overpriced orders.
 
 ### ABN will not be burned when trading on the exchanges. Will it break the system?
 
-There will be DEX in Elysium, so it will be possible to trade ABN for SABN outside the Grinder.&#x20;
+There will be DEX in Antofy, so it will be possible to trade ABN for SABN outside the Grinder.&#x20;
 
 If the price of ABN on DEX drops much relative to prices in the Grinder queue, it will open up an arbitrage opportunity. Anyone can buy a cheap ABN on the exchange and put it into the Grinder at a much higher price.&#x20;
 
@@ -296,10 +296,10 @@ As has already been said, the prices in the Grinder queue and on the exchange co
 
 ### Where will the first SABN tokens come from?
 
-The initial SABN tokens must appear somehow to launch the system. Otherwise, it will be impossible to make any transactions. For that, Elysium will have a rule (both initially and in the future) that each new validator will receive 100 SABN as a gift.
+The initial SABN tokens must appear somehow to launch the system. Otherwise, it will be impossible to make any transactions. For that, Antofy will have a rule (both initially and in the future) that each new validator will receive 100 SABN as a gift.
 
 ### Will ABN be distributed evenly?
 
 ABN will be distributed among validators as a reward. Since we plan to launch a network with about a thousand initial validators, and about 10% of the total ABN supply will be distributed among them in the first year, there should be no large ABN holders.&#x20;
 
-Well, except for the Elysium Team, which needs a lot of tokens to create bridges, provide liquidity for centralized exchanges, offer grants for developers, etc. The additional reward the Team will receive as Routers' rewards by operating the network layer.
+Well, except for the Antofy Team, which needs a lot of tokens to create bridges, provide liquidity for centralized exchanges, offer grants for developers, etc. The additional reward the Team will receive as Routers' rewards by operating the network layer.
