@@ -266,9 +266,9 @@ module.exports = {
       value: "FAQs",
       className: "sidebar-title",
     },
-    "faq/zkevm-general-faq",
-    "faq/zkevm-protocol-faq",
-    "faq/zkevm-eth-faq",
+    "faq/general-faq",
+    "faq/protocol-faq",
+    "faq/evm-faq",
     "risk-disclosure",
   ],
 };
