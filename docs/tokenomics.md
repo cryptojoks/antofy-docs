@@ -236,8 +236,7 @@ SABN_{issuance}=\frac{10^7}{73}\\
 $$
 
 These calculations apply only to newly created SABNs. Simultaneously with the issuance, SABNs will be minted through Grinder to replace the burned commission.
-{% endtab %}
-{% endtabs %}
+
 
 #### SABN Circulating Supply
 
@@ -246,7 +245,6 @@ The Antofy Grinder controls the issuance of the SABN coin to reach the target ci
 {% tabs %}
 {% tab title="Chart" %}
 
-{% endtab %}
 
 {% tab title="Details" %}
 The mathematical formula defines the target supply depending on the day after the launch. For the first 1000 days, the formula is:
@@ -260,8 +258,7 @@ After 1000 days the formula changes to keep the constant inflation rate:
 $$
 SABN_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
 $$
-{% endtab %}
-{% endtabs %}
+
 
 
 ## FAQ
