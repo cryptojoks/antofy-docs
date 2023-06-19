@@ -1,6 +1,6 @@
 ---
 id: evm-diff
-title: Differences between EVM and zkEVM
+title: Differences between EVM and Antofy
 sidebar_label: EVM vs Antofy Blockchain
 description: A guide to help developers understand the differences between the EVM and Antofy blockchain.
 keywords:
