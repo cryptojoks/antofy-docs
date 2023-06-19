@@ -83,96 +83,6 @@ In general, an ideal tokenomics should facilitate the coincidence of the interes
 The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Antofy is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter.&#x20;
 
 Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Antofy tokenomics uses two coins: ABN and SABN. Their supply is managed by Antofy Grinder, which is essentially an automated central bank.
-
-
-### ABN Coin
-
-<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 ABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Transaction fees in Antofy are paid in ABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning SABN in the Grinder</td></tr><tr><td>Burning</td><td>All SABNs used to pay commissions are burned</td></tr></tbody></table>
-
-What matters most to blockchain users is that transaction fees do not become very expensive. In modern blockchains, the commission amount is determined on an auction basis - the more commission users pay, the faster their transaction will be processed. This leads to two problems: frontrunning and higher fees during activity spikes.&#x20;
-
-{% hint style="info" %}
-Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.
-{% endhint %}
-
-In Antofy, the SABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 SABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because SABN is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
-
-An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of SABN will grow, but the absolute value of the transaction cost expressed in SABN will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
-
-#### SABN Utility
-
-All transaction fees paid in SABN are immediately burned. The base fee rate per transaction is 1 SABN. But since the volume of transactions can be large, too many SABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total SABN supply is burned daily.
-
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
-The formula defines the target fee cost in SABN depending on the total number of transactions. For the first 1000 days, the formula is:
-
-$$
-Fee=\frac{10^7}{10^7+TXN_{daily}}
-$$
-
-After 1000 days the formula changes to account for the SABN inflation:
-
-$$
-Fee=\frac{0.01\ast SABN_{supply}}{0.01\ast SABN_{supply}+TXN_{daily}}
-$$
-{% endtab %}
-{% endtabs %}
-
-#### SABN Issuance
-
-SABN can only be released into circulation by burning ABN in the Antofy Grinder. There is a queue of orders arranged by the ABN / SABN rate for this purpose. The more ABNs are offered in exchange for a single SABN, the sooner the Grinder will process that order. The closest analogy to such a queue is exchange limit sell orders, executed by persistent demand from the Grinder.
-
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
-The mathematical formula defines the SABN issuance depending on the day after the launch. For the first 1000 days, the formula is:
-
-$$
-SABN_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot day}}{\left(1+e^{-0.00591626\cdot day}\right)^{9.6}}
-$$
-
-After 1000 days the formula changes to keep the constant inflation rate:
-
-$$
-SABN_{issuance}=\frac{10^7}{73}\\
-$$
-
-These calculations apply only to newly created SABNs. Simultaneously with the issuance, SABNs will be minted through Grinder to replace the burned commission.
-{% endtab %}
-{% endtabs %}
-
-#### SABN Circulating Supply
-
-The Antofy Grinder controls the issuance of the SABN coin to reach the target circulating supply determined by a mathematical formula. Since the SABN coin is inflationary and the commissions paid in SABN are burned, there is a constant need to create new SABNs. Antofy Grinder will print SABNs providing the necessary issuance and replacing burned SABN coins to reach the target SABN circulating supply.
-
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
-The mathematical formula defines the target supply depending on the day after the launch. For the first 1000 days, the formula is:
-
-$$
-SABN_{supply}=10^{9.0112}\cdot\left(1+e^{-0.0059162\cdot day}\right)^{-8.6}\;-\frac{10^{9.0112}}{2^{8.6}}
-$$
-
-After 1000 days the formula changes to keep the constant inflation rate:
-
-$$
-SABN_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
-$$
-{% endtab %}
-{% endtabs %}
-
 ### ABN Coin
 
 <table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>100 000 000 ABNs</td></tr><tr><td>Utility</td><td>ABN is used to issue SABN</td></tr><tr><td>Issuance</td><td>Can be minted only as validator's reward</td></tr><tr><td>Burning</td><td>A part of ABN while minting SABN is burned </td></tr></tbody></table>
@@ -261,8 +171,97 @@ The model assumes that the number of transactions grows from 0 to a given number
 {% endtab %}
 {% endtabs %}
 
-|   |
-| - |
+
+
+
+### sABN Coin
+
+<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 sABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Transaction fees in Antofy are paid in sABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning sABN in the Grinder</td></tr><tr><td>Burning</td><td>All sABNs used to pay commissions are burned</td></tr></tbody></table>
+
+What matters most to blockchain users is that transaction fees do not become very expensive. In modern blockchains, the commission amount is determined on an auction basis - the more commission users pay, the faster their transaction will be processed. This leads to two problems: frontrunning and higher fees during activity spikes.&#x20;
+
+{% hint style="info" %}
+Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.
+{% endhint %}
+
+In Antofy, the SABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 SABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because SABN is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
+
+An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of SABN will grow, but the absolute value of the transaction cost expressed in SABN will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
+
+#### SABN Utility
+
+All transaction fees paid in SABN are immediately burned. The base fee rate per transaction is 1 SABN. But since the volume of transactions can be large, too many SABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total SABN supply is burned daily.
+
+{% tabs %}
+{% tab title="Chart" %}
+
+{% endtab %}
+
+{% tab title="Details" %}
+The formula defines the target fee cost in SABN depending on the total number of transactions. For the first 1000 days, the formula is:
+
+$$
+Fee=\frac{10^7}{10^7+TXN_{daily}}
+$$
+
+After 1000 days the formula changes to account for the SABN inflation:
+
+$$
+Fee=\frac{0.01\ast SABN_{supply}}{0.01\ast SABN_{supply}+TXN_{daily}}
+$$
+{% endtab %}
+{% endtabs %}
+
+#### SABN Issuance
+
+SABN can only be released into circulation by burning ABN in the Antofy Grinder. There is a queue of orders arranged by the ABN / SABN rate for this purpose. The more ABNs are offered in exchange for a single SABN, the sooner the Grinder will process that order. The closest analogy to such a queue is exchange limit sell orders, executed by persistent demand from the Grinder.
+
+{% tabs %}
+{% tab title="Chart" %}
+
+{% endtab %}
+
+{% tab title="Details" %}
+The mathematical formula defines the SABN issuance depending on the day after the launch. For the first 1000 days, the formula is:
+
+$$
+SABN_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot day}}{\left(1+e^{-0.00591626\cdot day}\right)^{9.6}}
+$$
+
+After 1000 days the formula changes to keep the constant inflation rate:
+
+$$
+SABN_{issuance}=\frac{10^7}{73}\\
+$$
+
+These calculations apply only to newly created SABNs. Simultaneously with the issuance, SABNs will be minted through Grinder to replace the burned commission.
+{% endtab %}
+{% endtabs %}
+
+#### SABN Circulating Supply
+
+The Antofy Grinder controls the issuance of the SABN coin to reach the target circulating supply determined by a mathematical formula. Since the SABN coin is inflationary and the commissions paid in SABN are burned, there is a constant need to create new SABNs. Antofy Grinder will print SABNs providing the necessary issuance and replacing burned SABN coins to reach the target SABN circulating supply.
+
+{% tabs %}
+{% tab title="Chart" %}
+
+{% endtab %}
+
+{% tab title="Details" %}
+The mathematical formula defines the target supply depending on the day after the launch. For the first 1000 days, the formula is:
+
+$$
+SABN_{supply}=10^{9.0112}\cdot\left(1+e^{-0.0059162\cdot day}\right)^{-8.6}\;-\frac{10^{9.0112}}{2^{8.6}}
+$$
+
+After 1000 days the formula changes to keep the constant inflation rate:
+
+$$
+SABN_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
+$$
+{% endtab %}
+{% endtabs %}
+
 
 ## FAQ
 
