@@ -29,7 +29,7 @@ As this is a Mainnet Beta, Antofy may be slow or unavailable from time to time w
 
 Antofy Labs is in the process of further decentralizing Antofy Blockchain. This refers to the process of gradually increasing decentralization of the system over time.
 
-- The Mainnet Beta will have some centralized features, such as the Sequencer and Aggregator (Prover), that Polygon Labs currently maintains in an effort to provide greater security at this time. **The Sequencer has the ability to delay the inclusion of a transaction and otherwise reorder transactions**.
+- The Mainnet Beta will have some centralized features, such as the Sequencer and Aggregator (Prover), that Antofy Labs currently maintains in an effort to provide greater security at this time. **The Sequencer has the ability to delay the inclusion of a transaction and otherwise reorder transactions**.
 
 - Security of Antofy Mainnet Beta is a continuous process. This process includes responding to security concerns, which depends on the Security Council. **The Security Council consists of 8 individuals who are empowered to upgrade Antofy Mainnet Beta** without a timelock to respond to urgent security issues. If members of the Council behave maliciously or collude, then the integrity of the system may be compromised including network upgrades that may result in loss of crypto-assets.
 
