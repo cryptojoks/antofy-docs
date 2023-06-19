@@ -21,7 +21,7 @@ An ideal tokenomics should facilitate the coincidence of the interests of three 
 
 The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Antofy is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter.
 
-Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Antofy tokenomics uses two coins: RAY and ABN. Their supply is managed by Antofy Grinder, which is essentially an automated central bank.
+Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Antofy tokenomics uses two coins: ABN and SABN. Their supply is managed by Antofy Grinder, which is essentially an automated central bank.
 
 If a cryptocurrency has its own blockchain, it is called a coin, unlike tokens, whose operations are processed by third-party blockchains. Thus, the description of the mechanics of how the blockchain economic model works should be called "coinomics."
 
@@ -82,12 +82,12 @@ In general, an ideal tokenomics should facilitate the coincidence of the interes
 
 The coincidence of interests is not just a theoretical concept. When applied to tokenomics, it means that the growth of some functional parameter of the system must benefit all participants. Since Antofy is a truly scalable blockchain, we chose network activity, in other words, the number of transactions per unit of time, as such a parameter.&#x20;
 
-Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Antofy tokenomics uses two coins: RAY and ABN. Their supply is managed by Antofy Grinder, which is essentially an automated central bank.
+Also, we are pretty sure that it is impossible to create a single-coin tokenomics model in which transaction growth results in gains for all participants, so Antofy tokenomics uses two coins: ABN and SABN. Their supply is managed by Antofy Grinder, which is essentially an automated central bank.
 
 
-### RAY Coin
+### ABN Coin
 
-<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 RAYs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Transaction fees in Antofy are paid in RAY</td></tr><tr><td>Issuance</td><td>Anyone can issue RAY by burning ABN in the Grinder</td></tr><tr><td>Burning</td><td>All RAYs used to pay commissions are burned</td></tr></tbody></table>
+<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 ABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Transaction fees in Antofy are paid in ABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning SABN in the Grinder</td></tr><tr><td>Burning</td><td>All SABNs used to pay commissions are burned</td></tr></tbody></table>
 
 What matters most to blockchain users is that transaction fees do not become very expensive. In modern blockchains, the commission amount is determined on an auction basis - the more commission users pay, the faster their transaction will be processed. This leads to two problems: frontrunning and higher fees during activity spikes.&#x20;
 
@@ -95,13 +95,13 @@ What matters most to blockchain users is that transaction fees do not become ver
 Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.
 {% endhint %}
 
-In Antofy, the RAY coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 RAY, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a RAY. Moreover, because RAY is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
+In Antofy, the SABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 SABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because RAY is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
 
-An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of RAY will grow, but the absolute value of the transaction cost expressed in RAY will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
+An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of SABN will grow, but the absolute value of the transaction cost expressed in SABN will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
 
-#### RAY Utility
+#### SABN Utility
 
-All transaction fees paid in RAY are immediately burned. The base fee rate per transaction is 1 RAY. But since the volume of transactions can be large, too many RAYs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total RAY supply is burned daily.
+All transaction fees paid in SABN are immediately burned. The base fee rate per transaction is 1 SABN. But since the volume of transactions can be large, too many SABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total RAY supply is burned daily.
 
 {% tabs %}
 {% tab title="Chart" %}
@@ -109,23 +109,23 @@ All transaction fees paid in RAY are immediately burned. The base fee rate per t
 {% endtab %}
 
 {% tab title="Details" %}
-The formula defines the target fee cost in RAY depending on the total number of transactions. For the first 1000 days, the formula is:
+The formula defines the target fee cost in SABN depending on the total number of transactions. For the first 1000 days, the formula is:
 
 $$
 Fee=\frac{10^7}{10^7+TXN_{daily}}
 $$
 
-After 1000 days the formula changes to account for the RAY inflation:
+After 1000 days the formula changes to account for the SABN inflation:
 
 $$
-Fee=\frac{0.01\ast RAY_{supply}}{0.01\ast RAY_{supply}+TXN_{daily}}
+Fee=\frac{0.01\ast SABN_{supply}}{0.01\ast SABN_{supply}+TXN_{daily}}
 $$
 {% endtab %}
 {% endtabs %}
 
-#### RAY Issuance
+#### SABN Issuance
 
-RAY can only be released into circulation by burning ABN in the Antofy Grinder. There is a queue of orders arranged by the ABN / RAY rate for this purpose. The more ABNs are offered in exchange for a single RAY, the sooner the Grinder will process that order. The closest analogy to such a queue is exchange limit sell orders, executed by persistent demand from the Grinder.
+SABN can only be released into circulation by burning ABN in the Antofy Grinder. There is a queue of orders arranged by the ABN / SABN rate for this purpose. The more ABNs are offered in exchange for a single SABN, the sooner the Grinder will process that order. The closest analogy to such a queue is exchange limit sell orders, executed by persistent demand from the Grinder.
 
 {% tabs %}
 {% tab title="Chart" %}
@@ -133,25 +133,25 @@ RAY can only be released into circulation by burning ABN in the Antofy Grinder. 
 {% endtab %}
 
 {% tab title="Details" %}
-The mathematical formula defines the RAY issuance depending on the day after the launch. For the first 1000 days, the formula is:
+The mathematical formula defines the SABN issuance depending on the day after the launch. For the first 1000 days, the formula is:
 
 $$
-RAY_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot day}}{\left(1+e^{-0.00591626\cdot day}\right)^{9.6}}
+SABN_{issuance}=52209083\cdot\frac{e^{-0.00591626\cdot day}}{\left(1+e^{-0.00591626\cdot day}\right)^{9.6}}
 $$
 
 After 1000 days the formula changes to keep the constant inflation rate:
 
 $$
-RAY_{issuance}=\frac{10^7}{73}\\
+SABN_{issuance}=\frac{10^7}{73}\\
 $$
 
-These calculations apply only to newly created RAYs. Simultaneously with the issuance, RAYs will be minted through Grinder to replace the burned commission.
+These calculations apply only to newly created SABNs. Simultaneously with the issuance, SABNs will be minted through Grinder to replace the burned commission.
 {% endtab %}
 {% endtabs %}
 
-#### RAY Circulating Supply
+#### SABN Circulating Supply
 
-The Antofy Grinder controls the issuance of the RAY coin to reach the target circulating supply determined by a mathematical formula. Since the RAY coin is inflationary and the commissions paid in RAY are burned, there is a constant need to create new RAYs. Antofy Grinder will print RAYs providing the necessary issuance and replacing burned RAY coins to reach the target RAY circulating supply.
+The Antofy Grinder controls the issuance of the SABN coin to reach the target circulating supply determined by a mathematical formula. Since the SABN coin is inflationary and the commissions paid in SABN are burned, there is a constant need to create new SABNs. Antofy Grinder will print SABNs providing the necessary issuance and replacing burned SABN coins to reach the target SABN circulating supply.
 
 {% tabs %}
 {% tab title="Chart" %}
@@ -162,30 +162,30 @@ The Antofy Grinder controls the issuance of the RAY coin to reach the target cir
 The mathematical formula defines the target supply depending on the day after the launch. For the first 1000 days, the formula is:
 
 $$
-RAY_{supply}=10^{9.0112}\cdot\left(1+e^{-0.0059162\cdot day}\right)^{-8.6}\;-\frac{10^{9.0112}}{2^{8.6}}
+SABN_{supply}=10^{9.0112}\cdot\left(1+e^{-0.0059162\cdot day}\right)^{-8.6}\;-\frac{10^{9.0112}}{2^{8.6}}
 $$
 
 After 1000 days the formula changes to keep the constant inflation rate:
 
 $$
-RAY_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
+SABN_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
 $$
 {% endtab %}
 {% endtabs %}
 
 ### ABN Coin
 
-<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>100 000 000 ABNs</td></tr><tr><td>Utility</td><td>ABN is used to issue RAY</td></tr><tr><td>Issuance</td><td>Can be minted only as validator's reward</td></tr><tr><td>Burning</td><td>A part of ABN while minting RAY is burned </td></tr></tbody></table>
+<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>100 000 000 ABNs</td></tr><tr><td>Utility</td><td>ABN is used to issue SABN</td></tr><tr><td>Issuance</td><td>Can be minted only as validator's reward</td></tr><tr><td>Burning</td><td>A part of ABN while minting SABN is burned </td></tr></tbody></table>
 
 It is vital for investors and validators that there are explicit mechanics for the growth of the asset in the long run. But in most modern networks, it is not entirely obvious what a coin is secured with, so the main criteria for long-term investments remain the limited supply of the token and the possible popularity of the decentralized system in the future.
 
-In Antofy, ABN is designed for investment purposes and is directly secured by user activity. ABN is a RAY coin printing certificate. Its main properties are a constant demand from the system and persistent burning. Thus, the more RAY coins are burned as transaction fees, the more must be printed, and the more ABNs will be used for this purpose, part of which will be burned.
+In Antofy, ABN is designed for investment purposes and is directly secured by user activity. ABN is a SABN coin printing certificate. Its main properties are a constant demand from the system and persistent burning. Thus, the more SABN coins are burned as transaction fees, the more must be printed, and the more ABNs will be used for this purpose, part of which will be burned.
 
 Thus, even a constant amount of daily transactions will reduce the overall supply of ABN. Therefore, both investors and validators benefit from the network activity since it directly reduces the ABN coin supply.
 
 #### ABN Utility
 
-ABN is used by Grinder for RAY issuance. Anyone can put ABN coins in the Grinder specifying ABN / RAY rate. The Grinder continuously uses the ABNs offers with the highest bids to issue RAYs. During the order processing, one part of the ABN burns irretrievably, and the other part becomes available for reissue into circulation. It will stop being burned when only 1 000 000 ABNs remain.
+ABN is used by Grinder for SABN issuance. Anyone can put ABN coins in the Grinder specifying ABN / SABN rate. The Grinder continuously uses the ABNs offers with the highest bids to issue SABNs. During the order processing, one part of the ABN burns irretrievably, and the other part becomes available for reissue into circulation. It will stop being burned when only 1 000 000 ABNs remain.
 
 {% tabs %}
 {% tab title="Chart" %}
@@ -193,19 +193,19 @@ ABN is used by Grinder for RAY issuance. Anyone can put ABN coins in the Grinder
 {% endtab %}
 
 {% tab title="Details" %}
-The percantage of ABN burned depends on the amount of ABNs put in Grinder for RAY issuance. The formula is:
+The percantage of ABN burned depends on the amount of ABNs put in Grinder for SABN issuance. The formula is:
 
 $$
 ABN_{\%burned}\;=\;100\cdot\frac{ABN_{grindered}}{ABN_{grindered}+10^7}
 $$
 
-When the number of ABNs used for RAY issuance exeeds 990 000 000 there will remain only 1 000 000 of ABN coins and they will stop burning.
+When the number of ABNs used for SABN issuance exeeds 990 000 000 there will remain only 1 000 000 of ABN coins and they will stop burning.
 {% endtab %}
 {% endtabs %}
 
 #### **ABN Issuance**
 
-Validators' rewards will be calculated in RAY as the sum of burned commissions and inflationary RAY issuance. ABN will be issued corresponding to that amount using a constant product formula as validators' rewards. This means that the reduction of ABN token issuance will not occur in leaps and bounds, as in the case of Bitcoin halvings, but gradually.
+Validators' rewards will be calculated in SABN as the sum of burned commissions and inflationary SABN issuance. ABN will be issued corresponding to that amount using a constant product formula as validators' rewards. This means that the reduction of ABN token issuance will not occur in leaps and bounds, as in the case of Bitcoin halvings, but gradually.
 
 Since validator rewards are not directly dependent on the specific transactions they process, the distribution of ABN among validators can be adjusted based on many factors. In addition, this approach prevents front-running.
 
@@ -215,21 +215,21 @@ Since validator rewards are not directly dependent on the specific transactions 
 {% endtab %}
 
 {% tab title="Details" %}
-The ABN supply depends on the number of RAYs minted by the Grinder. That includes all newly minted RAYs (issuance and replacement for burned coins). The number of ABNs to mint is defined by the formula:
+The ABN supply depends on the number of SABNs minted by the Grinder. That includes all newly minted SABNs (issuance and replacement for burned coins). The number of ABNs to mint is defined by the formula:
 
 $$
-ABN_{issued}=\frac{10^{16}}{RAY_{minted}+10^8}
+ABN_{issued}=\frac{10^{16}}{SABN_{minted}+10^8}
 $$
 
-The Grinder uses a virtual ABN system pool to issue ABN. The Grinder can only take ABN from there to the extent of the burned commissions and inflation issuance. ABN used but not burned during RAY minting returns to this virtual pool. Thus, over time, fewer and fewer ABN will be issued as a reward.
+The Grinder uses a virtual ABN system pool to issue ABN. The Grinder can only take ABN from there to the extent of the burned commissions and inflation issuance. ABN used but not burned during SABN minting returns to this virtual pool. Thus, over time, fewer and fewer ABN will be issued as a reward.
 
-You can imagine - that there is a virtual AMM in Grinder with a pool of **RAY totally minted** / **ABN for issuance**. But the calculation of the ABN issue is done without having a real AMM - just by the constant product formula.
+You can imagine - that there is a virtual AMM in Grinder with a pool of **SABN totally minted** / **ABN for issuance**. But the calculation of the ABN issue is done without having a real AMM - just by the constant product formula.
 {% endtab %}
 {% endtabs %}
 
 #### ABN Circulating Supply
 
-The amount of ABN circulating supply depends on the ratio of the ABN burning speed to the issuance volume. The ABN burning pace is determined primarily by the ABN market price. The ABN issuance depends on the number of RAYs burned as commissions. Thus, the exact amount of ABN in circulation can only be approximated.
+The amount of ABN circulating supply depends on the ratio of the ABN burning speed to the issuance volume. The ABN burning pace is determined primarily by the ABN market price. The ABN issuance depends on the number of SABNs burned as commissions. Thus, the exact amount of ABN in circulation can only be approximated.
 
 Our simulation shows that though the total supply of ABN is 100 000 000, it is unlikely that there will be more than 20 000 000 ABNs in circulation at any given moment.
 
@@ -241,13 +241,13 @@ Our simulation shows that though the total supply of ABN is 100 000 000, it is u
 {% tab title="Details" %}
 The circulating supply of ABN is calculated based on a computer model.&#x20;
 
-It assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of RAY and ABN coins in circulation.
+It assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of SABN and ABN coins in circulation.
 {% endtab %}
 {% endtabs %}
 
-#### RAY / ABN Rate
+#### SABN / ABN Rate
 
-The RAY / ABN rate depends very much on the initial distribution of coins - therefore, it can even fall during the first few years if the number of transactions is not very high. But in the long term, the amount of RAY in circulation will grow, and the amount of ABN will fall after the peak is passed. So, in the long run, depending on the number of transactions in the blockchain, the amount of RAY given per ABN will steadily grow.
+The SABN / ABN rate depends very much on the initial distribution of coins - therefore, it can even fall during the first few years if the number of transactions is not very high. But in the long term, the amount of SABN in circulation will grow, and the amount of ABN will fall after the peak is passed. So, in the long run, depending on the number of transactions in the blockchain, the amount of SABN given per ABN will steadily grow.
 
 {% tabs %}
 {% tab title="Chart" %}
@@ -255,9 +255,9 @@ The RAY / ABN rate depends very much on the initial distribution of coins - ther
 {% endtab %}
 
 {% tab title="Details" %}
-The RAY / ABN rate is calculated based on a computer model as a ratio of the RAY circulating supply and the ABN circulating supply.&#x20;
+The SABN / ABN rate is calculated based on a computer model as a ratio of the SABN circulating supply and the ABN circulating supply.&#x20;
 
-The model assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of RAY and ABN coins in circulation.
+The model assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of SABN and ABN coins in circulation.
 {% endtab %}
 {% endtabs %}
 
@@ -274,15 +274,15 @@ If some single-token system goes bankrupt, it doesn't mean all single-token mech
 
 In the beginning, a bridge with Ethereum will be set up to interact with the outside world, allowing users to use wrapped ETH in Elysium. It will also be possible to withdraw capital from the Elysium network using this bridge.&#x20;
 
-Bridges to other popular blockchains will be created in the future. If necessary, it will be possible to make a bridge with reverse logic, where RAY or ABN is withdrawn from Elysium, and in another blockchain, the user receives wrapped RAY or ABN tokens.
+Bridges to other popular blockchains will be created in the future. If necessary, it will be possible to make a bridge with reverse logic, where SABN or ABN is withdrawn from Elysium, and in another blockchain, the user receives wrapped SABN or ABN tokens.
 
 ### What happens if no one puts ABN in the Grinder?
 
-That won't happen. At least, the Elysium Team will put a single ABN in the Grinder queue at a price sufficient to issue a billion RAYs. And we have no doubt that there will be many such overpriced orders.
+That won't happen. At least, the Elysium Team will put a single ABN in the Grinder queue at a price sufficient to issue a billion SABNs. And we have no doubt that there will be many such overpriced orders.
 
 ### ABN will not be burned when trading on the exchanges. Will it break the system?
 
-There will be DEX in Elysium, so it will be possible to trade ABN for RAY outside the Grinder.&#x20;
+There will be DEX in Elysium, so it will be possible to trade ABN for SABN outside the Grinder.&#x20;
 
 If the price of ABN on DEX drops much relative to prices in the Grinder queue, it will open up an arbitrage opportunity. Anyone can buy a cheap ABN on the exchange and put it into the Grinder at a much higher price.&#x20;
 
@@ -292,11 +292,11 @@ Thus, the price on the exchange and in the Grinder queue will strongly correlate
 
 ### What happens if ABN collapses?
 
-As has already been said, the prices in the Grinder queue and on the exchange correlate. If the price of ABN falls (relative to RAY), then the Grinder will start to consume (and burn) significantly more ABN. Therefore, at moments of deep ABN drawdowns, it will be burned at an accelerated pace.
+As has already been said, the prices in the Grinder queue and on the exchange correlate. If the price of ABN falls (relative to SABN), then the Grinder will start to consume (and burn) significantly more ABN. Therefore, at moments of deep ABN drawdowns, it will be burned at an accelerated pace.
 
-### Where will the first RAY tokens come from?
+### Where will the first SABN tokens come from?
 
-The initial RAY tokens must appear somehow to launch the system. Otherwise, it will be impossible to make any transactions. For that, Elysium will have a rule (both initially and in the future) that each new validator will receive 100 RAY as a gift.
+The initial SABN tokens must appear somehow to launch the system. Otherwise, it will be impossible to make any transactions. For that, Elysium will have a rule (both initially and in the future) that each new validator will receive 100 SABN as a gift.
 
 ### Will ABN be distributed evenly?
 
