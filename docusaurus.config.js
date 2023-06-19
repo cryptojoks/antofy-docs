@@ -228,7 +228,7 @@ module.exports = {
         alt: "antofy logo",
         src: "img/antofy.svg",
         srcDark: "img/antofy.svg",
-        href: 'https:/antofy.io',
+        href: '/',
         target: "_self",
        },
       items: [
