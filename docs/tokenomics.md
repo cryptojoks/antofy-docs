@@ -95,13 +95,13 @@ What matters most to blockchain users is that transaction fees do not become ver
 Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.
 {% endhint %}
 
-In Antofy, the SABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 SABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because RAY is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
+In Antofy, the SABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 SABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because SABN is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
 
 An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of SABN will grow, but the absolute value of the transaction cost expressed in SABN will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
 
 #### SABN Utility
 
-All transaction fees paid in SABN are immediately burned. The base fee rate per transaction is 1 SABN. But since the volume of transactions can be large, too many SABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total RAY supply is burned daily.
+All transaction fees paid in SABN are immediately burned. The base fee rate per transaction is 1 SABN. But since the volume of transactions can be large, too many SABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total SABN supply is burned daily.
 
 {% tabs %}
 {% tab title="Chart" %}
