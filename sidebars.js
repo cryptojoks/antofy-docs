@@ -57,7 +57,7 @@ module.exports = {
         },
         {
           type: "category",
-          label: "zkEVM Bridge",
+          label: "Antofy Bridge",
           link: {
             type: "generated-index",
           },
