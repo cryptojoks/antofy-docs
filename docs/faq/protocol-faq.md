@@ -1,11 +1,11 @@
 ---
-id: zkevm-protocol-faq
-title: zkEVM Protocol FAQs
+id: protocol-faq
+title: Antofy Protocol FAQs
 sidebar_label: Protocol FAQs
 description: This document compiles some of the frequently asked questions related to the Polygon zkEVM protocol.
 keywords:
-  - polygon
-  - zkEVM
+  - antofy
+  - abn
   - protocol faq
   - transactions
   - sequencer
@@ -17,7 +17,7 @@ keywords:
   - emergency state
 ---
 
-This document compiles some of the frequently asked questions related to the Polygon zkEVM protocol. For more details, check out [this documentation](/protocol/introduction.md).
+This document compiles some of the frequently asked questions related to the Antofy Blockchain protocol. For more details, check out [this documentation](/protocol/introduction.md).
 
 ---
 
