@@ -1,15 +1,15 @@
 ---
-id: zkevm-general-faq
-title: General FAQs related to zkEVM
+id: general-faq
+title: General FAQs related to Antofy Blockchain
 sidebar_label: General FAQs
-description: This document compiles some of the general frequently asked questions related to the Polygon zkEVM.
+description: This document compiles some of the general frequently asked questions related to the Antofy Blockchain.
 keywords:
-  - zkEVM
+  - antofy
   - general faq
   - token
   - RPC
   - EVM
-  - polygon
+  - abn
   - open source
 ---
 
@@ -19,20 +19,20 @@ This document compiles some of the frequently asked questions related to the Pol
 
 ### For anyone not familiar, what is Polygon zkEVM?
 
-Polygon zkEVM is the leading zero knowledge scaling solution that is equivalent to the Ethereum Virtual Machine. This means that most of the existing smart contracts, developer tools, and wallets work seamlessly. 
+Antofy Blockchain is the leading zero knowledge scaling solution that is equivalent to the Ethereum Virtual Machine. This means that most of the existing smart contracts, developer tools, and wallets work seamlessly. 
 
-Polygon zkEVM harnesses the power of Zero-Knowledge proofs to reduce transaction costs and increase throughput, all while inheriting the security of Ethereum L1.
+Antofy Blockchain harnesses the power of Zero-Knowledge proofs to reduce transaction costs and increase throughput, all while inheriting the security of Ethereum L1.
 
-### What are the main features of Polygon zkEVM?
+### What are the main features of Antofy Blockchain?
 
-- **EVM-equivalence**: Most Ethereum smart contracts, wallets, and tools work seamlessly on Polygon zkEVM
+- **EVM-equivalence**: Most Ethereum smart contracts, wallets, and tools work seamlessly on Antofy Blockchain
 - Inherits **security from Ethereum**
 - Lower cost compared to L1 and **better finality than other L2 solutions** like Optimistic Rollups
 - **ZKP-powered scalability**, and aiming at similar throughput to PoS
 
-### What kind of gas fee reduction can users expect from Polygon zkEVM?
+### What kind of gas fee reduction can users expect from Antofy Blockchain?
 
-Compared to Ethereum Layer 1, users can expect a significant reduction in gas fees. Polygon layer 2 scaling solutions/protocols batch transactions together and then effectively spread the cost of a single layer 1 transaction across multiple layer 2 transactions.
+Compared to Ethereum Layer 1, users can expect a significant reduction in gas fees. Antofy Blockchain 2 scaling solutions/protocols batch transactions together and then effectively spread the cost of a single layer 1 transaction across multiple layer 2 transactions.
 
 ### How do zkRollups work?
 
