@@ -65,7 +65,7 @@ function Buttonizer({linkUrl}) {
     <div className="button-group">
       <button onClick={addMaticNetwork} className="button is-icon w-inline-flex">
         <div className="button-icon_left-element is-icon-medium">
-          <div className="text-size-small">Add Antofy Network</div>
+          <div className="text-size-small">Add Network</div>
         </div>
         <div className="button-icon_right-element is-icon-medium">
           <div className="icon-1x1-medium w-embed">
