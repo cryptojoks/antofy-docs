@@ -205,23 +205,20 @@ To be able to connect to each of Antofy's hierarchical layers, one of the unique
 
 The blockchain system of distributing these assets to all participants involved in Antofy will be launched sometime after the system's launch. Initially, the public cluster will be formed by participants who have successfully passed the Pioneer Program. Pioneers will be able to launch their nodes on one of the hierarchical layers, depending on the results they achieve in the Program.
 
-{% hint style="info" %}
-There will be selected 70 participants for the assertion layer, 500 for the address layer, and over 1000 for the assembly layer. External users will not be able to join any layer before launching a Bronze, Silver, and Gold distribution. From the initial launch of the system until the start of the distribution system, the public cluster will operate in a test mode with a reward for pioneers in the form of a real SKY.
-{% endhint %}
+
+*There will be selected 70 participants for the assertion layer, 500 for the address layer, and over 1000 for the assembly layer. External users will not be able to join any layer before launching a Bronze, Silver, and Gold distribution. From the initial launch of the system until the start of the distribution system, the public cluster will operate in a test mode with a reward for pioneers in the form of a real sABN.*
 
 The details of how the Bronze, Silver, and Gold distribution system will work once it is launched will be covered in a separate section, as this topic is broad. For now, it is essential to note that Silver will, on average, be ten times more scarce than Bronze and ten times more affordable than Gold.
 
 Since the total reward per block is limited, increasing the number of nodes will lead to a proportional decrease in participants' profits. In addition, some critical aspects of the system, such as consensus, will run slower with more nodes. That is why the number of nodes of different types should aim for an optimal value to better balance the system's reliability and decentralization with the performance and profitability.
 
-{% hint style="info" %}
-The final sizes of the different groups of nodes will be obtained from the network testing data, but for now, we can be guided by the following rough numbers:
+*The final sizes of the different groups of nodes will be obtained from the network testing data, but for now, we can be guided by the following rough numbers:*
 
 * Keepers: 101
 * Routers: 1001
 * Workers: 10001
-{% endhint %}
 
-The motivation for increasing the number of nodes will be a reward in SKY coins. The SKY for each block is distributed between a Worker, a Router, and a Keeper evenly. Thus, simply because there are ten times fewer Keepers than Routers, their income will be, on average, the same ten times higher. In other words, increased profitability on higher hierarchy levels will be due to reduced competition.
+The motivation for increasing the number of nodes will be a reward in sABN coins. The sABN for each block is distributed evenly between a Worker, a Router, and a keeper. Thus, simply because there are ten times fewer Keepers than Routers, their income will be, on average, the same ten times higher. In other words, increased profitability at higher hierarchy levels will be due to reduced competition.
 
 Limiting the growth of the number of nodes when reaching the optimal value will be achieved by constantly charging resources from all nodes of this type. And the higher the optimal number is exceeded, the greater the corresponding resource will be charged off. Resources will not be charged when the number of nodes is less than optimal.
 
@@ -229,9 +226,7 @@ In other words, if there are 1000 Routers, they will not be charged Silver. If t
 
 Since the amount of Silver held by each Router will be different, at a certain point, some of them will run out of Silver, and those nodes will no longer be able to perform the role of a Router. Therefore, the more Routers there are, the faster their quantity will aim to optimal.
 
-{% hint style="info" %}
-Whereas Bitcoin can be obtained as a reward for expending computational resources, SKY can be obtained by spending on-chain non-tradable resources - Bronze, Silver, and Gold, backed by the engagement of participants.
-{% endhint %}
+*Whereas Bitcoin can be obtained as a reward for expending computational resources, sABN can be obtained by spending on-chain non-tradable resources - Bronze, Silver, and Gold, backed by the engagement of participants.*
 
 ## Summary
 
