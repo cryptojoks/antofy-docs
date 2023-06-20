@@ -36,7 +36,7 @@ You can **add Antofy Network to your wallet** instantly by clicking the **Add zk
 
 :::
 
-You can follow this **step-by-step guide** to learn how to bridge assets from Ethereum Mainnet &rarr; Polygon zkEVM Mainnet Beta and vice-versa.
+You can follow this **step-by-step guide** to learn how to bridge assets from Ethereum Mainnet &rarr; Antofy Mainnet Beta and vice-versa.
 
 - On the [Antofy website](https://bridge.antofy.io/), you can find a tab to access:
 
