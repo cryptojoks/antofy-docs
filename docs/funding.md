@@ -43,9 +43,6 @@ This approach makes it possible to:
 
 Therefore, we are building a strong community of enthusiasts simultaneously with blockchain development. And if you want to be one of the initial validators - you are welcome!
 
-|   |
-| - |
-
 ## FAQ
 
 ### Don't you have tokens of the future blockchain for sale?
