@@ -131,7 +131,7 @@ The model assumes that the number of transactions grows from 0 to a given number
 
 ### sABN Coin
 
-<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 sABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Rewards in Antofy are paid in sABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning sABN in the Grinder</td></tr><tr><td>Burning</td><td>All sABNs used to pay commissions are burned</td></tr></tbody></table>
+<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 sABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Rewards in Antofy are paid in sABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning sABN in the Grinder</td></tr></tbody></table>
 
 What matters most to blockchain users is that transaction fees is 0.
 
