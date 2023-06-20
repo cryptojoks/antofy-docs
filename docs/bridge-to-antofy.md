@@ -32,7 +32,7 @@ Check out this video guide on **how to bridge tokens from L1 to the Antofy Testn
 
 :::tip Quick Connect
 
-You can **add Antofy Network to your wallet** instantly by clicking the **Add zkEVM Network** button on the [<ins>Antofy Documentation</ins>](/) website.
+You can **add Antofy Network to your wallet** instantly by clicking the **Add YETI Network** button on the [<ins>Antofy Documentation</ins>](/) website.
 
 :::
 
