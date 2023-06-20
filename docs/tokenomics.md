@@ -52,11 +52,7 @@ In the blockchain world, this problem is more pronounced as cryptocurrency users
 
 *For example, the transaction cost has a dramatic profitability impact on online business that involves cross-border cryptocurrency payments, especially if numerous transactions are assumed.*
 
-Thus, the users' and the node owners' interests directly contradict each other. For users, commissions are costs, and it is beneficial to reduce them. For node owners, fees are income, and it is profitable to increase them. But in an ideal world, the interests of users and node owners should coincide - both groups should be interested in the growth of network popularity and its further development.
-
-Modern blockchains solve this problem through issuance, which provides the nodes with their profitability in the first place by the very high number of newly created coins at the start of the network and the numerous initial blockchain investors. So users pay a small fee, and nodes get the bulk of the reward with minted coins. But because issuance decreases over time, at some point, one of two things will happen anyway - either the income from the emission will not be enough to motivate node owners, or the fees will drastically increase.
-
-Even Bitcoin, having most of its coins already created and its issuance significantly reduced relative to the initial stage of blockchain development, has this problem. There is still debate in the community about what will happen when its emission drops even further or stops entirely - whether the pure fees will be sufficient to motivate node owners.
+Thus, the users' and the node owners' interests directly contradict each other. For users, commissions are costs, and it is beneficial to reduce them. For node owners, rewards are income, and it is profitable to increase them. But in an ideal world, the interests of users and node owners should coincide - both groups should be interested in the growth of network popularity and its further development.
 
 *At some point, the following chain of events may occur. Bitcoin issuance during the halving will drop so much that it will become unprofitable to mine in the face of such competition. The number of miners will begin to decrease, and Bitcoin's hashrate will start dropping. This will make users nervous about blockchain security, and they will begin withdrawing money from Bitcoin. The price of Bitcoin will drop, making mining even more unprofitable.*
 
@@ -82,7 +78,7 @@ Also, we are pretty sure that it is impossible to create a single-coin tokenomic
 
 It is vital for investors and validators that there are explicit mechanics for the growth of the asset in the long run. But in most modern networks, it is not entirely obvious what a coin is secured with, so the main criteria for long-term investments remain the limited supply of the token and the possible popularity of the decentralized system in the future.
 
-In Antofy, ABN is designed for investment purposes and is directly secured by user activity. ABN is a sABN coin printing certificate. Its main properties are a constant demand from the system and persistent burning. Thus, the more sABN coins are burned as transaction fees, the more must be printed, and the more ABNs will be used for this purpose, part of which will be burned.
+In Antofy, ABN is designed for investment purposes and is directly secured by user activity. ABN is a sABN coin printing certificate. Its main properties are a constant demand from the system and persistent burning. Thus, the more sABN must be printed, and the more ABNs will be used for this purpose, part of which will be burned.
 
 Thus, even a constant amount of daily transactions will reduce the overall supply of ABN. Therefore, both investors and validators benefit from the network activity since it directly reduces the ABN coin supply.
 
@@ -135,30 +131,27 @@ The model assumes that the number of transactions grows from 0 to a given number
 
 ### sABN Coin
 
-<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 sABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Transaction fees in Antofy are paid in sABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning sABN in the Grinder</td></tr><tr><td>Burning</td><td>All sABNs used to pay commissions are burned</td></tr></tbody></table>
+<table><thead><tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>Unlimited</td></tr><tr><td>Circulating Supply</td><td>Limited by formula</td></tr><tr><td>Initial Supply</td><td>1 000 000 000 sABNs during the first 1000 days</td></tr><tr><td>Inflation</td><td>5% yearly after 1000 days</td></tr><tr><td>Utility</td><td>Rewards in Antofy are paid in sABN</td></tr><tr><td>Issuance</td><td>Anyone can issue ABN by burning sABN in the Grinder</td></tr><tr><td>Burning</td><td>All sABNs used to pay commissions are burned</td></tr></tbody></table>
 
-What matters most to blockchain users is that transaction fees do not become very expensive. In modern blockchains, the commission amount is determined on an auction basis - the more commission users pay, the faster their transaction will be processed. This leads to two problems: frontrunning and higher fees during activity spikes.&#x20;
+What matters most to blockchain users is that transaction fees is 0.
 
 *Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.*
 
-In Antofy, the sABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 sABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because sABN is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
+In Antofy, the sABN coin will be used to pay Rewards. Moreover, because sABN is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
 
-An activity expansion is usually accompanied by coin price growth. Thus, with the increase in network activity, the relative price of sABN will grow, but the absolute value of the transaction cost expressed in sABN will decrease. This will allow the fees to remain at an acceptable level relative to the real world even at the peak of the bull run.
 
 #### sABN Utility
 
-All transaction fees paid in sABN are immediately burned. The base fee rate per transaction is 1 sABN. But since the volume of transactions can be large, too many sABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total sABN supply is burned daily.
-
-The formula defines the target fee cost in sABN depending on the total number of transactions. For the first 1000 days, the formula is:
+The formula defines the target Reward in sABN depending on the total number of transactions. For the first 1000 days, the formula is:
 
 $$
-Fee=\frac{10^7}{10^7+TXN_{daily}}
+Rewards=\frac{10^7}{10^7+TXN_{daily}}
 $$
 
 After 1000 days the formula changes to account for the sABN inflation:
 
 $$
-Fee=\frac{0.01\ast sABN_{supply}}{0.01\ast sABN_{supply}+TXN_{daily}}
+Rewards=\frac{0.01\ast sABN_{supply}}{0.01\ast sABN_{supply}+TXN_{daily}}
 $$
 
 #### sABN Issuance
