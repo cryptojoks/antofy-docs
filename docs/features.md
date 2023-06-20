@@ -40,7 +40,7 @@ In Antofy, we use the concept of occupying a future block for finalization. When
 
 Thus, instant finalization, true scalability, and fast communication through a separate network layer allow Antofy to achieve unprecedented transaction processing speeds.
 
-## Innovative Duonomics
+## Innovative Tokenomics
 
 Antofy tokenomics is built on the use of two different coins. The purpose of the sABN coin is to be a stabel coin, and the ABN coin will be needed to issue sABN. This model separates blockchain investments, which solves many problems at once.
 
