@@ -36,9 +36,7 @@ As we already wrote in the [Positioning ](/docs/positioning.md)section, Bitcoin 
 
 In this model, the main concern is that funds are withdrawn at the expense of new users who want to invest in the system. Meaning that Bitcoin is rising in value because people buy it expecting it to become even more expensive.
 
-{% hint style="info" %}
-This is why short-sighted financial experts sometimes call Bitcoin a Ponzi scheme. But they are wrong - in addition to its function as a store of value, Bitcoin now also acts as a measure of value (e.g., WBTC on Ethereum) and a means of payment (Lightning Network).
-{% endhint %}
+*This is why short-sighted financial experts sometimes call Bitcoin a Ponzi scheme. But they are wrong - in addition to its function as a store of value, Bitcoin now also acts as a measure of value (e.g., WBTC on Ethereum) and a means of payment (Lightning Network).*
 
 But because of Bitcoin-like tokenomics, a conflict between network users and long-term holders has become apparent. Investors withdraw tokens from circulation, causing the price to rise, which raises costs for using the blockchain functionality that backs the coin. Thus, at the peak of the bull run, the commission on the use of smart contract functionality in Ethereum is prohibitive, reaching hundreds of dollars per transaction.
 
