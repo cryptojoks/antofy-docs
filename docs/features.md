@@ -18,7 +18,7 @@ The cryptocurrency industry is increasingly shifting towards centralization. But
 
 In one of his talks, Nassim Taleb gave an example that people can vary from each other in weight by 5, well by 10 times at max. But in the size of their fortunes, they can differ a billion times. How can a decentralized system be created where one vote weighs billions of times more than the overwhelming majority of others?
 
-The unique consensus of Antofy - Proof of Victory - provides real, rather than declarative decentralization, as anyone can participate in it, and the weight of the vote does not depend on the size of the owned capital.
+The unique consensus of Antofy - Proof of Defeating - provides real, rather than declarative decentralization, as anyone can participate in it, and the weight of the vote does not depend on the size of the owned capital.
 
 ## True Scalability <a href="#4dc9" id="4dc9"></a>
 
@@ -42,14 +42,7 @@ Thus, instant finalization, true scalability, and fast communication through a s
 
 ## Innovative Duonomics
 
-Antofy Duonomics is built on the use of two different coins. The purpose of the RAY coin is to be a transaction fee payment, and the SKY coin will be needed to issue RAY. This model separates blockchain investments and transaction fees, which solves many problems at once:
-
-* The burn mechanics of an investment SKY coin directly secures its value by the network activity - even if the number of daily transactions stays at the same level, the SKY price will continue to rise since its supply shrinks and the demand from the system remains constant.
-* The growth of the SKY price will not raise the cost of transaction fees paid in RAY.
-* RAY's inflation will ensure the long-term stability of commission prices relative to fiat currencies.
-* Increased Antofy activity, unlike other blockchains, will reduce transaction fees.
-* Burning SKY will allow its supply to be lowered gradually rather than in a leap, as in the case of Bitcoin halving.
-* The separation of the commission paid in RAY and the rewards for validators accrued in SKY prevents frontrunning and makes it possible to assess the work of network nodes based on more factors besides the block production itself.
+Antofy tokenomics is built on the use of two different coins. The purpose of the sABN coin is to be a stabel coin, and the ABN coin will be needed to issue sABN. This model separates blockchain investments, which solves many problems at once.
 
 Separating tokenomics into inflationary and deflationary coins accomplishes a crucial goal. The interests of investors, users, and validators align since they all benefit from network activity growth.
 
