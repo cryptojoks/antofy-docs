@@ -186,7 +186,7 @@ $$
 After 1000 days the formula changes to keep the constant inflation rate:
 
 $$
-SABN_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
+sABN_{supply}=\frac{10^7}{73}\cdot\left(day+6300\right)
 $$
 
 ## FAQ
