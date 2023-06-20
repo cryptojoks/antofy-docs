@@ -15,9 +15,7 @@ keywords:
 
 The concept of decentralization is quite broad and includes many aspects from various domains: politics, sociology, game theory, engineering, programming, and economics. So when we describe a computer system as decentralized, we must accent particular aspects we discuss. And usually, decentralization refers to a peer-to-peer architecture that is a network of equal and interchangeable nodes.
 
-{% hint style="info" %}
-The pure peer-to-peer approach assumes that nodes that form a network provide a service to each other. A computer program allows a user to get resources from different nodes, and at the same time, it acts as a server that processes requests from other participants. A good analogy is a barbershop society, where members can ask others for a free haircut.
-{% endhint %}
+*The pure peer-to-peer approach assumes that nodes that form a network provide a service to each other. A computer program allows a user to get resources from different nodes, and at the same time, it acts as a server that processes requests from other participants. A good analogy is a barbershop society, where members can ask others for a free haircut.*
 
 However, only some peer-to-peer networks are genuinely decentralized systems since there are often centralized services running on top of a peer-to-peer network to help nodes communicate with each other. Therefore, distributed systems such as BitTorrent, SETI@home, or Skype are, in fact, something in between.
 
@@ -37,9 +35,7 @@ It turned out that in a pure peer-to-peer network, achieving an effective search
 
 Therefore, the only way to search is to transfer the request from one node to another. But since nodes constantly connect and disconnect from the network, search requests will never be completed as the list of available files in the system is continuously changing. And limiting the lifetime of the request lowers its probability of reaching the node where the desired file is stored.
 
-{% hint style="info" %}
-Searching for a file in an unstructured peer-to-peer network can be compared to exiting a constantly changing maze. The only way to find a way out (if there is one) is to get lucky during a random walk. It is one of the facets of a routing problem in a decentralized network.
-{% endhint %}
+*Searching for a file in an unstructured peer-to-peer network can be compared to exiting a constantly changing maze. The only way to find a way out (if there is one) is to get lucky during a random walk. It is one of the facets of a routing problem in a decentralized network.*
 
 #### Blockchain - a new twist in the evolution of peer-to-peer systems
 
@@ -49,9 +45,7 @@ Bitcoin was the first genuinely decentralized peer-to-peer system that used dist
 
 The first problem encountered was [IP address exhaustion](https://en.wikipedia.org/wiki/IPv4\_address\_exhaustion). The protocol IPv4 (1981), still taking up most of the Internet traffic, assumes just over 4.2 billion addresses - less than all devices connected to the Internet nowadays.
 
-{% hint style="info" %}
-Most technologies result from coincidence and chance - [according to Vint Cerf](https://www.youtube.com/watch?v=mZo69JQoLb8\&t=816s), the Internet is an experiment escaped from a laboratory.
-{% endhint %}
+*Most technologies result from coincidence and chance - [according to Vint Cerf](https://www.youtube.com/watch?v=mZo69JQoLb8\&t=816s), the Internet is an experiment escaped from a laboratory.*
 
 Ordinary users do not notice the lack of IP addresses. But it is a severe limitation for peer-to-peer expansion since nodes must interconnect to form a network. Due to the lack of IP addresses, most home computers are connected to the Internet through [NAT](https://en.wikipedia.org/wiki/Network\_address\_translation), which does not allow them to [interconnect directly](https://pdos.csail.mit.edu/papers/p2pnat.pdf) without the help of a third-party server with a public IP address.
 
@@ -61,9 +55,7 @@ The massive blockchain size creates a high entry barrier for newcomers since the
 
 And the third problem is the exponential growth of the Bitcoin price, which contributes to intense competition for participation in its issuance. The competition among miners became so high that the probability of creating a new block using an ordinary computer and, hence, receiving a reward for it dropped to almost zero.
 
-{% hint style="info" %}
-Big farms built from specially designed devices (ASICs) create most of the new blocks nowadays. The largest of such farms belong to the manufacturers of ASICs themselves. So the big players have taken over Bitcoin issuance, taking it far from the original peer-to-peer idea of equality.
-{% endhint %}
+*Big farms built from specially designed devices (ASICs) create most of the new blocks nowadays. The largest of such farms belong to the manufacturers of ASICs themselves. So the big players have taken over Bitcoin issuance, taking it far from the original peer-to-peer idea of equality.*
 
 Thus, using the functionality embedded in Bitcoin nodes on home computers has become virtually impossible.
 
@@ -91,9 +83,7 @@ Cryptocurrencies' phenomenal success is primarily because the lack of an owner r
 
 But when there is no owner, there is also no single source of truth to which all participants can refer.&#x20;
 
-{% hint style="info" %}
-The owner, for example, can determine which server provides the current time, keeps a list of all working nodes, or stores the file paths. But such a server becomes known to everyone, and if a third party blocks it, the system will stop working. And this has happened more than once.
-{% endhint %}
+*The owner, for example, can determine which server provides the current time, keeps a list of all working nodes, or stores the file paths. But such a server becomes known to everyone, and if a third party blocks it, the system will stop working. And this has happened more than once.*
 
 Theoretically, a majority consent of the nodes about the system's state could serve as the source of truth. The participants' individual interests are contradictory, and, as a result, the optimum to which the system will aim is the balance of the interests of the majority of its participants.
 
@@ -131,9 +121,7 @@ We call this type of architecture a Public Cluster.
 
 While in classic Proof of Work, real computing power protects the virtual blockchain from tampering, in a public cluster architecture, virtual blockchain resources shield the physical network from the fake nodes.
 
-{% hint style="info" %}
-Imagining a chain of blocks as a rope, when woven with Proof of Work consensus, the nodes weave a gold thread into it. And in a public cluster, virtual gold is demanded from the nodes to be part of the device, producing a rope with unique coloring.
-{% endhint %}
+*Imagining a chain of blocks as a rope, when woven with Proof of Work consensus, the nodes weave a gold thread into it. And in a public cluster, virtual gold is demanded from the nodes to be part of the device, producing a rope with unique coloring.*
 
 The public cluster architecture has a whole set of unique advantages:
 
@@ -179,9 +167,7 @@ Forming a structured address ring is one of the most important architectural fea
 
 A single address space effectively solves many problems decentralized systems face, from user-friendly client-server interaction to the addressable forwarding of crypto assets and information.
 
-{% hint style="info" %}
-In other words, the user's wallet program will not connect to proprietary servers, as with virtually all current solutions, but to one of the Routers. In addition, sending requests to a specific wallet and receiving a response from it will be possible in the Antofy network.
-{% endhint %}
+*In other words, the user's wallet program will not connect to proprietary servers, as with virtually all current solutions, but to one of the Routers. In addition, sending requests to a specific wallet and receiving a response from it will be possible in the Antofy network.*
 
 In addition to their primary tasks at the address level, Routers also act as a liaison to tie the entire cluster together. This is achieved through vertical layer integration, as Workers and Wallets connect to Routers, which in turn must be connected to Keepers.
 
@@ -195,9 +181,7 @@ It is worth noting that the Worker's task is only to create a new block, not to 
 
 Separating the new block creation (which requires checking the correctness of the previous chain) into a distinct role brings much greater decentralization of the nodes that support and check the system's work. At the same time, this approach reduces as much as possible the technical entry barrier for node owners - only a program running on a home computer or laptop that does not consume many resources is required.
 
-{% hint style="info" %}
-A relatively close analogy for describing the architecture of Antofy can be a bank. Thus, the Keepers correspond to the bank's board of directors, which decides critical issues and is the only source of truth. Routers can be compared to a network of branches, which regular customers can visit to make transfers, as well as Workers, who perform specific tasks for a reward.
-{% endhint %}
+*A relatively close analogy for describing the architecture of Antofy can be a bank. Thus, the Keepers correspond to the bank's board of directors, which decides critical issues and is the only source of truth. Routers can be compared to a network of branches, which regular customers can visit to make transfers, as well as Workers, who perform specific tasks for a reward.*
 
 #### The launch and the size of the Antofy public cluster
 
