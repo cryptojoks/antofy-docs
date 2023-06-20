@@ -98,12 +98,6 @@ Thus, even a constant amount of daily transactions will reduce the overall suppl
 
 ABN is used by Grinder for SABN issuance. Anyone can put ABN coins in the Grinder specifying ABN / SABN rate. The Grinder continuously uses the ABNs offers with the highest bids to issue SABNs. During the order processing, one part of the ABN burns irretrievably, and the other part becomes available for reissue into circulation. It will stop being burned when only 1 000 000 ABNs remain.
 
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
 The percantage of ABN burned depends on the amount of ABNs put in Grinder for SABN issuance. The formula is:
 
 $$
@@ -111,8 +105,6 @@ ABN_{\%burned}\;=\;100\cdot\frac{ABN_{grindered}}{ABN_{grindered}+10^7}
 $$
 
 When the number of ABNs used for SABN issuance exeeds 990 000 000 there will remain only 1 000 000 of ABN coins and they will stop burning.
-{% endtab %}
-{% endtabs %}
 
 #### **ABN Issuance**
 
@@ -120,12 +112,6 @@ Validators' rewards will be calculated in SABN as the sum of burned commissions 
 
 Since validator rewards are not directly dependent on the specific transactions they process, the distribution of ABN among validators can be adjusted based on many factors. In addition, this approach prevents front-running.
 
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
 The ABN supply depends on the number of SABNs minted by the Grinder. That includes all newly minted SABNs (issuance and replacement for burned coins). The number of ABNs to mint is defined by the formula:
 
 $$
@@ -135,8 +121,6 @@ $$
 The Grinder uses a virtual ABN system pool to issue ABN. The Grinder can only take ABN from there to the extent of the burned commissions and inflation issuance. ABN used but not burned during SABN minting returns to this virtual pool. Thus, over time, fewer and fewer ABN will be issued as a reward.
 
 You can imagine - that there is a virtual AMM in Grinder with a pool of **SABN totally minted** / **ABN for issuance**. But the calculation of the ABN issue is done without having a real AMM - just by the constant product formula.
-{% endtab %}
-{% endtabs %}
 
 #### ABN Circulating Supply
 
@@ -144,36 +128,18 @@ The amount of ABN circulating supply depends on the ratio of the ABN burning spe
 
 Our simulation shows that though the total supply of ABN is 100 000 000, it is unlikely that there will be more than 20 000 000 ABNs in circulation at any given moment.
 
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
 The circulating supply of ABN is calculated based on a computer model.&#x20;
 
 It assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of SABN and ABN coins in circulation.
-{% endtab %}
-{% endtabs %}
 
 #### SABN / ABN Rate
 
 The SABN / ABN rate depends very much on the initial distribution of coins - therefore, it can even fall during the first few years if the number of transactions is not very high. But in the long term, the amount of SABN in circulation will grow, and the amount of ABN will fall after the peak is passed. So, in the long run, depending on the number of transactions in the blockchain, the amount of SABN given per ABN will steadily grow.
 
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
 {% tab title="Details" %}
 The SABN / ABN rate is calculated based on a computer model as a ratio of the SABN circulating supply and the ABN circulating supply.&#x20;
 
 The model assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of SABN and ABN coins in circulation.
-{% endtab %}
-{% endtabs %}
-
-
-
 
 ### sABN Coin
 
@@ -193,12 +159,6 @@ An activity expansion is usually accompanied by coin price growth. Thus, with th
 
 All transaction fees paid in SABN are immediately burned. The base fee rate per transaction is 1 SABN. But since the volume of transactions can be large, too many SABNs can be burned in a short period. Therefore, as the number of transactions increases, the fee is reduced so that no more than 1% of the total SABN supply is burned daily.
 
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
 The formula defines the target fee cost in SABN depending on the total number of transactions. For the first 1000 days, the formula is:
 
 $$
@@ -210,19 +170,11 @@ After 1000 days the formula changes to account for the SABN inflation:
 $$
 Fee=\frac{0.01\ast SABN_{supply}}{0.01\ast SABN_{supply}+TXN_{daily}}
 $$
-{% endtab %}
-{% endtabs %}
 
 #### SABN Issuance
 
 SABN can only be released into circulation by burning ABN in the Antofy Grinder. There is a queue of orders arranged by the ABN / SABN rate for this purpose. The more ABNs are offered in exchange for a single SABN, the sooner the Grinder will process that order. The closest analogy to such a queue is exchange limit sell orders, executed by persistent demand from the Grinder.
 
-{% tabs %}
-{% tab title="Chart" %}
-
-{% endtab %}
-
-{% tab title="Details" %}
 The mathematical formula defines the SABN issuance depending on the day after the launch. For the first 1000 days, the formula is:
 
 $$
