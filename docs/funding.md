@@ -51,9 +51,7 @@ No. Antofy is not a PoS blockchain that could be decentralized only through toke
 
 ### How exactly will you raise funds?
 
-We need the Antofy blockchain decentralized as much as possible from the very beginning. To achieve that, we have launched the Pioneers Program.&#x20;
-
-To join it, you will need an access key NFT. Selling these NFTs will help us fund the blockchain development.
+We need the Antofy blockchain decentralized as much as possible from the very beginning. To achieve that, we have launched the open public Pool.&#x20;
 
 ### How much money do you need to build Antofy?
 
