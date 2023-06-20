@@ -6,7 +6,7 @@
 
 <br>
 
-Antofy Documentation is the documentation hub providing extensive documentation, community resources, and guides for enthusiasts and developers interested in learning about or building on Antofy.
+Antofy Labs Documentation is the documentation hub providing extensive documentation, community resources, and guides for enthusiasts and developers interested in learning about or building on Antofy.
 
 
 ## Contribute to Antofy Blockchain
