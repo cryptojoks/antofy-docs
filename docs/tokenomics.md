@@ -42,9 +42,7 @@ But because of Bitcoin-like tokenomics, a conflict between network users and lon
 
 Imagine Netflix released its token with a limited supply, which is needed to pay for movies. Many people will want to buy it as an investment asset, causing its price to rise. Users wishing to watch movies will have to pay a lot more. This will lead to a decrease in the number of actual clients, while they are the key to the service's success and, consequently, the value of the issued token.
 
-{% hint style="info" %}
-That is why in the real world, paying for a service and investing in it are separated into two different types of assets: fiat currencies and stocks.
-{% endhint %}
+*That is why in the real world, paying for a service and investing in it are separated into two different types of assets: fiat currencies and stocks.*
 
 ### Users vs Node Owners
 
@@ -52,9 +50,7 @@ Exchanging money for services or goods is such a simple and old concept that we 
 
 In the blockchain world, this problem is more pronounced as cryptocurrency users continue to live in the real world and use fiat money for living. As cryptocurrency rises, network node owners play the role of exporters in countries with weakening currencies. Their income increases while their living costs remain the same. But those who use the network for something other than investing or trading act as people getting poorer.&#x20;
 
-{% hint style="info" %}
-For example, the transaction cost has a dramatic profitability impact on online business that involves cross-border cryptocurrency payments, especially if numerous transactions are assumed.
-{% endhint %}
+*For example, the transaction cost has a dramatic profitability impact on online business that involves cross-border cryptocurrency payments, especially if numerous transactions are assumed.*
 
 Thus, the users' and the node owners' interests directly contradict each other. For users, commissions are costs, and it is beneficial to reduce them. For node owners, fees are income, and it is profitable to increase them. But in an ideal world, the interests of users and node owners should coincide - both groups should be interested in the growth of network popularity and its further development.
 
@@ -62,9 +58,7 @@ Modern blockchains solve this problem through issuance, which provides the nodes
 
 Even Bitcoin, having most of its coins already created and its issuance significantly reduced relative to the initial stage of blockchain development, has this problem. There is still debate in the community about what will happen when its emission drops even further or stops entirely - whether the pure fees will be sufficient to motivate node owners.
 
-{% hint style="info" %}
-At some point, the following chain of events may occur. Bitcoin issuance during the halving will drop so much that it will become unprofitable to mine in the face of such competition. The number of miners will begin to decrease, and Bitcoin's hashrate will start dropping. This will make users nervous about blockchain security, and they will begin withdrawing money from Bitcoin. The price of Bitcoin will drop, making mining even more unprofitable.
-{% endhint %}
+*At some point, the following chain of events may occur. Bitcoin issuance during the halving will drop so much that it will become unprofitable to mine in the face of such competition. The number of miners will begin to decrease, and Bitcoin's hashrate will start dropping. This will make users nervous about blockchain security, and they will begin withdrawing money from Bitcoin. The price of Bitcoin will drop, making mining even more unprofitable.*
 
 Within standard single-coin tokenomics, it is impossible to balance the user costs with the node owners' revenues because of the real-world coin price volatility. But this balance is crucial for customer availability if blockchain provides unique functionality.
 
@@ -145,9 +139,7 @@ The model assumes that the number of transactions grows from 0 to a given number
 
 What matters most to blockchain users is that transaction fees do not become very expensive. In modern blockchains, the commission amount is determined on an auction basis - the more commission users pay, the faster their transaction will be processed. This leads to two problems: frontrunning and higher fees during activity spikes.&#x20;
 
-{% hint style="info" %}
-Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.
-{% endhint %}
+*Frontrunning is the ability to outrun someone else's massive transaction by increasing the commission paid and earning from the resulting price increase.*
 
 In Antofy, the SABN coin will be used to pay commissions. The maximum commission cost will be a fixed amount of 1 SABN, but with the growth of the network activity, the transaction cost will decrease - down to thousandths of a SABN. Moreover, because SABN is an inflationary coin with a 5% supply growth per year, its price will correlate with the real-world inflation rate in the long run.
 
