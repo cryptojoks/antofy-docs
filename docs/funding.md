@@ -22,7 +22,7 @@ Initially, it was an experiment to create a decentralized system in which workin
 
 In turn, the slogan of the increasingly popular today Proof of Stake (PoS) consensus is like this: "We do business on blockchain technology, and you can also invest." The meaning turned upside down! If it used to be "participate and get paid," now it is "pay if you want to participate."
 
-The Antofy Team wants to bring back the spirit of cryptocurrencies' dawn! We have adopted Bitcoin's approach as our basic creed: Elysium is a unique decentralized system that solves real-world problems and needs as many support nodes as possible. The difference is that Elysium is a scalable blockchain, so each additional validator, besides providing more security to the system, will also add throughput.&#x20;
+The Antofy Team wants to bring back the spirit of cryptocurrencies' dawn! We have adopted Bitcoin's approach as our basic creed: Antofy is a unique decentralized system that solves real-world problems and needs as many support nodes as possible. The difference is that Antofy is a scalable blockchain, so each additional validator, besides providing more security to the system, will also add throughput.&#x20;
 
 That is why any person with a computer will be able to become a validator in the Antofy network, and no financial investments will be required for that. But this will be possible only a while after the launch of Antofy.
 
