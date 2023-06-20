@@ -93,7 +93,7 @@ ABN is used by Grinder for sABN issuance. Anyone can put ABN coins in the Grinde
 The percantage of ABN burned depends on the amount of ABNs put in Grinder for sABN issuance. The formula is:
 
 $$
-ABN_{\%burned}\;=\;100\cdot\frac{ABN_{grindered}}{ABN_{grindered}+10^7}
+ABN_{\burned}\;=\;100\cdot\frac{ABN_{grindered}}{ABN_{grindered}+10^7}
 $$
 
 When the number of ABNs used for sABN issuance exeeds 990 000 000 there will remain only 1 000 000 of ABN coins and they will stop burning.
