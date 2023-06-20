@@ -31,19 +31,20 @@ If you're looking for things you can do with Antofy, check out the [Antofy Ecosy
 
 Get started with Antofy by installing the [Antofy node](https://antofy.io), and deploying a simple DeFi app locally in Quick Start.
 
-For in depth tutorials on the underlying aspects of the Antofy Network check out the Developer Guide and the Developer Resources.
+For in depth tutorials on the underlying aspects of the Antofy Network, check out the Developer Guide and the Developer Resources.
 
 
 ## Why Antofy?
-Antofy is fast, scalable, has low transaction costs and does no wasteful mining.
 
-Antofy chain features next-gen blockchain technology, utilizing POA (Proof of Authority), extensible EVM and state of the art cryptography.
+Antofy is fast, scalable, has zero transaction costs, and does no wasteful mining.
+
+Antofy chain features next-gen blockchain technology, utilizing POD (Proof of Defeating), extensible EVM and state of the art cryptography.
 
 ## Introduction to the Antofy Platform
-The Antofy Platform is a unified infrastructure platform based on the technical, traffic and ecological resources, and will be gradually open to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. The Antofy Platform is an EVM compatible blockchain who solves the biggest problem of Dapp industry. The Antofy Platform will provide global developers with series of diverse innovative facilities and services.
+The Antofy Platform is a unified infrastructure platform based on technical, traffic, and ecological resources and will be gradually opened to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. The Antofy Platform is an EVM compatible blockchain that solves the biggest problem in the Dapp industry. The Antofy Platform will provide global developers with a series of diverse, innovative facilities and services.
 
 ## Solving market's biggest problem
-Decentralized applications (Dapps) running on any blockchain contribute to the biggest use case of the blockchain industry. These Dapps are heavily sabotaged by the traditional blockchain's transaction speed. This really does not let heavy Dapps like gaming, metaverse, NFTs, etc. to function as their full potential. The traditional blockchain simply can not provide the transaction speed that they need. That is the reason why these types of Dapps can decide to move away from blockchain altogether and adopt a centralised web application approach. Our blockchain solves this problem by having a high TPS capacity using the mighty POA consensus mechanism. Apart from this, our blockchain also heavily emphasises the security of the network through the network of the validators responsible for confirming the transactions. The speed and security will create huge advantages for the Dapps, so they can carry on their innovative development in the blockchain ecosystem.
+Decentralized applications (Dapps) running on any blockchain contribute to the biggest use case of the blockchain industry. These Dapps are heavily sabotaged by the traditional blockchain's transaction speed. This really does not let heavy Dapps like gaming, metaverse, NFTs, etc. function to their full potential. The traditional blockchain simply can not provide the transaction speed that they need. That is the reason why these types of Dapps can decide to move away from blockchain altogether and adopt a centralised web application approach. Our blockchain solves this problem by having a high TPS capacity using the mighty POA consensus mechanism. Apart from this, our blockchain also heavily emphasizes the security of the network through the network of the validators responsible for confirming the transactions. The speed and security will create huge advantages for the Dapps, so they can carry on their innovative development in the blockchain ecosystem.
 
 ## Declaration
 To empower the decentralised applications (Dapps) ecosystem
