@@ -124,8 +124,7 @@ It assumes that the number of transactions grows from 0 to a given number within
 
 The SABN / ABN rate depends very much on the initial distribution of coins - therefore, it can even fall during the first few years if the number of transactions is not very high. But in the long term, the amount of sABN in circulation will grow, and the amount of ABN will fall after the peak is passed. So, in the long run, depending on the number of transactions in the blockchain, the amount of sABN given per ABN will steadily grow.
 
-{% tab title="Details" %}
-The sABN / ABN rate is calculated based on a computer model as a ratio of the sABN circulating supply and the ABN circulating supply.&#x20;
+*The sABN / ABN rate is calculated based on a computer model as a ratio of the sABN circulating supply and the ABN circulating supply.&#x20;*
 
 The model assumes that the number of transactions grows from 0 to a given number within about half a year, and the rate at which Grinder uses ABN is directly proportional to the ratio of sABN and ABN coins in circulation.
 
