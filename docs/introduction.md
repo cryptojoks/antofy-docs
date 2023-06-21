@@ -20,7 +20,7 @@ This documentation is still a **Work In Progress**. Some topics have been discus
 
 **Welcome to the Antofy Documentation portal.**
 
-Antofy is an L1 blockchain designed from the ground up to solve the current problems faced by existing blockchains. We have reimagined every aspect of the technology, from tokenomics to consensus, to create a fundamentally new distributed system.
+Antofy is a blockchain designed from the ground up to solve the current problems faced by existing blockchains. We have reimagined every aspect of the technology, from tokenomics to consensus, to create a fundamentally new distributed system.
 This documentation is the only reliable source of the Antofy architecture. We are still polishing the system's nuances, so the documentation is constantly updated and supplemented.
 
 ## Get started
