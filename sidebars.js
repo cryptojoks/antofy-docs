@@ -33,7 +33,6 @@ module.exports = {
             type: "generated-index",
           },
           items: [
-            "protocol/l2-transaction-cycle-intro",
             "protocol/transaction-execution",
             "protocol/transaction-batching",
             "protocol/transaction-sequencing",
