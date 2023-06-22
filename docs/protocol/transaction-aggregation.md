@@ -20,4 +20,4 @@ This document is a continuation in the series of articles explaining the [<ins>T
 
 :::
 
-The **Trusted Aggregator should eventually aggregate the sequences of batches previously committed by the Trusted Sequencer in order to achieve the L2 State final stage**, which is the Consolidated State.
+The **Trusted Aggregator should eventually aggregate the sequences of batches previously committed by the Trusted Sequencer in order to achieve the L1 State final stage**, which is the Consolidated State.
