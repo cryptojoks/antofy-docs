@@ -12,6 +12,6 @@ keywords:
   - forced batch
 ---
 
-Users must rely on a Trusted Sequencer for their transactions to be executed in the L2. However, users can include their transactions in a **forced batch** if they are unable to execute them through the Trusted Sequencer.
+Users must rely on a Trusted Sequencer for their transactions to be executed in the L1. However, users can include their transactions in a **forced batch** if they are unable to execute them through the Trusted Sequencer.
 
-**A forced batch is a collection of L2 transactions that users can commit to L1 to publicly declare their intent to execute those transactions**.
+**A forced batch is a collection of L1 transactions that users can commit to L1 to publicly declare their intent to execute those transactions**.
