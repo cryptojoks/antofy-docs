@@ -15,4 +15,4 @@ keywords:
   - consolidated state
 ---
 
-This document aims to explain how the Antofy Blockchain Protocol manages the L2 Rollup's states while providing state transition verifiability and security.
+This document aims to explain how the Antofy Blockchain Protocol manages the L1 states while providing state transition verifiability and security.
