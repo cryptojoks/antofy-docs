@@ -12,6 +12,6 @@ keywords:
   - L1 to L1
 ---
 
-## Asset Flow from L1 &rarr; L2
+## Asset Flow from L1 &rarr; L1
 
-Suppose a user wants to bridge some assets from the L1 Mainnet to L2 (here, Antofy Blockchain).
+Suppose a user wants to bridge some assets from the L1 Mainnet to L1 (here, Antofy Blockchain).
