@@ -18,4 +18,4 @@ This document is a continuation in the series of articles explaining the [<ins>T
 
 :::
 
-**Batches need to be sequenced and validated** before they can become a part of the L2 Virtual State.
+**Batches need to be sequenced and validated** before they can become a part of the L1 Virtual State.
