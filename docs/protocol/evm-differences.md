@@ -12,4 +12,4 @@ keywords:
   - precompiled contracts
 ---
 
-This document provides a comprehensive list of differences between the Ethereum Virtual Machine (EVM) and the Antofy Virtual Machine (AEVM). The list includes supported EIPs, opcodes, and additional changes made to build the Antofy Blockchain.
+This document provides a comprehensive list of differences between the Ethereum Virtual Machine (EVM) and the Antofy Virtual Machine. The list includes supported EIPs, opcodes, and additional changes made to build the Antofy Blockchain.
