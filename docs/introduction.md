@@ -71,7 +71,7 @@ Antofy encourages developers to provide more decentralized cross-chain solution.
 ### Financial Support
 - Antofy will set up a special fund to invest, support and incentivize high-potential developers.
 - Antofy will launch a variety of developer activities and competitions to discover and fund potential developers.
-- In order to reduce the cost of users on Antofy Dapp, the Antofy meta transaction function will reduce the gas fee of users holding $BNI in a step-wise manner.
+- In order to reduce the cost of users on Antofy Dapp, the Antofy meta transaction function will reduce the gas fee of users holding $ABN in a step-wise manner.
 
 ## Traffic Support
 Antofy will strongly support the development of Antofy ecosystem:
