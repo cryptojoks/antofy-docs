@@ -65,7 +65,7 @@ function Buttonizer({linkUrl}) {
     <div className="button-group">
       <button onClick={addMaticNetwork} className="button is-icon w-inline-flex">
         <div className="button-icon_left-element is-icon-medium">
-          <div className="text-size-small">Add Network</div>
+          <div className="text-size-small">Add Testnet</div>
         </div>
         <div className="button-icon_right-element is-icon-medium">
           <div className="icon-1x1-medium w-embed">
@@ -159,7 +159,7 @@ function Home() {
                       </div>
                       <div>
                         <a href="#" target="_blank" class="button white-button" style={{marginRight: 8}}>Mainnet Beta</a>
-                        <a href="#" target="_blank" class="button white-button">Public Testnet</a>
+                        <a href="https://test.antofyscan.com/" target="_blank" class="button white-button">Public Testnet</a>
                       </div>
                     </div>
                   </div>
