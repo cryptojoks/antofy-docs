@@ -10,15 +10,15 @@ async function addMaticNetwork() {
     const result = await window.ethereum.request({
       method: "wallet_addEthereumChain",
       params: [{
-        chainId: "0x00",
-        rpcUrls: ["https://antofy.io"],
-        chainName: "Antofy",
+        chainId: "0x59DE",
+        rpcUrls: ["https://testnet-rpc.antofy.io"],
+        chainName: "Antofy Testnet",
         nativeCurrency: {
-          name: "Ether",
-          symbol: "ETH",
+          name: "Antofy",
+          symbol: "ABN",
           decimals: 18
         },
-        blockExplorerUrls: ["https://antofyscan.com/"]
+        blockExplorerUrls: ["https://test.antofyscan.com/"]
       }]
     });
   } catch (error){
