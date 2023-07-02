@@ -77,11 +77,10 @@ Also, we are pretty sure that it is impossible to create a single-coin tokenomic
 <table><thead>
 <tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum  Supply</td><td>1,000,000,000,000</td></tr><tr><td>Total Supply</td><td>1, 000,000,000</td></tr><tr><td>Burned Supply</td><td>999,000,000,000</td></tr><tr><td>Decimal</td><td>9</td></tr><tr><td>Transaction Fee</td><td>0% Buy tax <br /> 3% Sell tax (Marketing/Reflections)</td></tr><tr><td>Contract Binance</td><td>0xdcc4C24CfC2df6970b6B7DE62b929C4189E25599</td></tr></tbody></table>
 
-![abn-lock](img/abn-pool.png)
-
-
 ![abn-lock](img/abn-lock.png)
 
+
+![abn-lock](img/abn-pool.png)
 
 
 ### ABN Coin Native Chain
