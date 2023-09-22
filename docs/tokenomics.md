@@ -77,15 +77,11 @@ Also, we are pretty sure that it is impossible to create a single-coin tokenomic
 <table><thead>
 <tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum  Supply</td><td>27,000,000</td></tr><tr><td>Total Supply</td><td>27,000,000</td></tr><tr><td>Locked Supply</td><td>26,396,357</td></tr><tr><td>Decimal</td><td>18</td></tr><tr><td>Transaction Fee</td><td>0% </td></tr><tr><td>Contract Binance</td><td>0x7062f2e2b917ed14b2b0833e9e0278cb4bc62c69</td></tr></tbody></table>
 
-![abn-lock](img/abn-lock.png)
-
-
-![abn-lock](img/abn-pool.png)
 
 
 ### ABN Coin Native Chain
 
-<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>1,000,000,000,000</td></tr><tr><td>Total Supply</td><td>27,000,000</td></tr><tr><td>Utility</td><td>ABN is used to issue sABN</td></tr><tr><td>Issuance</td><td>99% Supply Can be minted only as validator's reward</td></tr></tbody></table>
+<table><thead><tr><th width="177">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum Supply</td><td>1,000,000,000,000</td></tr><tr><td>Total Supply</td><td>27,000,000</td></tr><tr><td>Utility</td><td>ABN is used to issue sABN</td></tr><tr><td>Issuance</td><td>999,973,000,000 Supply Can be minted only as validator's reward</td></tr></tbody></table>
 
 It is vital for investors and validators that there are explicit mechanics for the growth of the asset in the long run. But in most modern networks, it is not entirely obvious what a coin is secured with, so the main criteria for long-term investments remain the limited supply of the token and the possible popularity of the decentralized system in the future.
 
