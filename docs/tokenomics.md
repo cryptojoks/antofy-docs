@@ -75,7 +75,7 @@ Also, we are pretty sure that it is impossible to create a single-coin tokenomic
 ### ABN (BEP20) Token on Binance Chain
 
 <table><thead>
-<tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum  Supply</td><td>1,000,000,000,000</td></tr><tr><td>Total Supply</td><td>1, 000,000,000</td></tr><tr><td>Burned Supply</td><td>999,000,000,000</td></tr><tr><td>Decimal</td><td>9</td></tr><tr><td>Transaction Fee</td><td>0% Buy tax <br /> 3% Sell tax (Marketing/Reflections)</td></tr><tr><td>Contract Binance</td><td>0x7062f2e2b917ed14b2b0833e9e0278cb4bc62c69</td></tr></tbody></table>
+<tr><th width="194">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Maximum  Supply</td><td>27,000,000</td></tr><tr><td>Total Supply</td><td>27,000,000</td></tr><tr><td>Locked Supply</td><td>26,396,357</td></tr><tr><td>Decimal</td><td>18</td></tr><tr><td>Transaction Fee</td><td>0% </td></tr><tr><td>Contract Binance</td><td>0x7062f2e2b917ed14b2b0833e9e0278cb4bc62c69</td></tr></tbody></table>
 
 ![abn-lock](img/abn-lock.png)
 
