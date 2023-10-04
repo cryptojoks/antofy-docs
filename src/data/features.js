@@ -54,6 +54,6 @@ export const secondRow = [
     },
     {
         title: "Antofy Staking",
-        linkUrl: "https://staking.antofy.finance/",
+        linkUrl: "https://stake.antofy.io",
     },
 ];
