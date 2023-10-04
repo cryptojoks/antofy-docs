@@ -112,7 +112,7 @@ module.exports = {
               rel: null,
             },
             {
-              href: 'https://staking.antofy.finance',
+              href: 'https://stake.antofy.io',
               label: 'Staking',
               target: '_blank',
               rel: null,
@@ -170,7 +170,7 @@ module.exports = {
               label: 'Twitter',
             },
             {
-              href: 'https://t.me/antofygroup',
+              href: 'https://t.me/antoflabs',
               label: 'Forum',
             },
             {
