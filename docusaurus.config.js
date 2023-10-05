@@ -61,15 +61,15 @@ module.exports = {
             },
             {
               label: "Blog",
-              href: "https://antofy.com/blog/"
+              href: "https://medium.com/@antofy"
             },
             {
               label: "Careers",
               href: "mailto:https://antofy.com/blog"
             },
             {
-              label: "ABN Token",
-              href: "https://antofy.finance/swap/bnb/bnb-to-abn"
+              label: "BUY $ABN",
+              href: "https://pancakeswap.finance/swap?outputCurrency=0x7062f2e2b917ED14B2B0833e9e0278CB4Bc62C69"
             },
             {
               label: "Join Us",
@@ -141,23 +141,23 @@ module.exports = {
           title: "Resources",
           items: [
             {
-              href: 'https://antofy.com',
+              href: 'https://antofy.io',
               label: 'Antofy Support',
             },
             {
               label: "Advocate Antofy",
-              href: "https://antofy.com"
+              href: "https://antofy.io"
             },
             {
               label: "Antofy Funds",
-              href: "https://antofy.com"
+              href: "https://antofy.io"
             },
             {
               label: "Bug Bounty",
-              href: "https://antofy.com"
+              href: "https://antofy.io"
             },
             {
-              href: 'https://antofy.com',
+              href: 'https://antofy.io',
               label: 'Build your own dApp',
             },
           ]
@@ -171,15 +171,19 @@ module.exports = {
             },
             {
               href: 'https://t.me/antoflabs',
-              label: 'Forum',
-            },
-            {
-              href: 'https://www.reddit.com/r/0xantofy/',
-              label: 'Reddit',
-            },
-            {
-              href: 'https://t.me/antofylabs',
               label: 'Telegram',
+            },
+            {
+              href: 'https://coinmarketcap.com/community/profile/antofy',
+              label: 'CMC',
+            },
+             {
+              href: 'https://www.coingecko.com/en/coins/antofy',
+              label: 'CG',
+            },
+            {
+              href: 'https://www.dextools.io/app/en/bnb/pair-explorer/0xba064f379b5669ac6314d0936d1ccddded06a7b7',
+              label: 'Dextools',
             },
           ]
         },
