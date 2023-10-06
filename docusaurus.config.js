@@ -170,7 +170,7 @@ module.exports = {
               label: 'Twitter',
             },
             {
-              href: 'https://t.me/antoflabs',
+              href: 'https://t.me/antofylabs',
               label: 'Telegram',
             },
             {
